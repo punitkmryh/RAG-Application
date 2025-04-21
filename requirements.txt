@@ -13,3 +13,4 @@ lxml
 tabulate
 langchain-huggingface
 duckduckgo_search
+torch
