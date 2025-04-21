@@ -27,24 +27,42 @@ llm = ChatGroq(model="llama3-70b-8192", api_key=GROQ_API_KEY)
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Fetch tables and convert to documents
-def fetch_tables_from_url(url):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
-    tables = pd.read_html(response.text)
 
-    documents = []
-    for idx, table in enumerate(tables):
-        title = f"Table_{idx + 1}"
-        csv_path = os.path.join(DATA_DIR, f"{title}.csv")
-        xlsx_path = os.path.join(DATA_DIR, f"{title}.xlsx")
+# Function to fetch tables with titles from URL
+def fetch_tables_with_titles(url):
+    try:
+        response = requests.get(url)
+        soup = BeautifulSoup(response.content, 'html.parser')
 
-        table.to_csv(csv_path, index=False)
-        table.to_excel(xlsx_path, index=False)
+        tables = soup.find_all("table")
+        all_data = []
 
-        doc_text = f"Title: {title}\n\n" + table.to_markdown()
-        documents.append(Document(page_content=doc_text, metadata={"source": title}))
+        for idx, table in enumerate(tables):
+            parent = table.find_parent()
+            title_tag = parent.find_previous(lambda tag: tag.name in ["h1", "h2", "h3", "h4", "h5", "h6", "span"] and tag.get("class") and "title" in tag.get("class"))
 
-    return tables, documents
+            title = title_tag.get_text(strip=True) if title_tag else f"table_{idx+1}"
+            df = pd.read_html(str(table))[0]
+
+            filename_base = f"{title.replace(' ', '_').lower()}_{uuid4().hex[:6]}"
+            csv_path = os.path.join(DATA_DIR, f"{filename_base}.csv")
+            xlsx_path = os.path.join(DATA_DIR, f"{filename_base}.xlsx")
+
+            df.to_csv(csv_path, index=False)
+            df.to_excel(xlsx_path, index=False)
+
+            all_data.append({
+                "title": title,
+                "dataframe": df,
+                "csv_path": csv_path,
+                "xlsx_path": xlsx_path
+            })
+
+        return all_data
+    except Exception as e:
+        st.error(f"Failed to fetch tables: {e}")
+        return []
+
 
 # Build vectorstore and QA chain
 def build_qa_chain(documents):
