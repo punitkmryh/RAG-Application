@@ -4,6 +4,8 @@ import streamlit as st
 import pandas as pd
 from bs4 import BeautifulSoup
 from io import BytesIO
+from uuid import uuid4
+
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_community.document_loaders import TextLoader
@@ -12,35 +14,31 @@ from langchain.chains import RetrievalQA
 from langchain_groq import ChatGroq
 from langchain.schema import Document
 
-# Set up paths
+# ------------------ Setup ------------------
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
 st.set_page_config(page_title="🧠 TableSense AI", layout="wide")
-st.title("📊 Table Scraper and Chatbot for Table insight using LLM QA")
+st.title("📊 Table Scraper and Chatbot for Table Insight Using LLM QA")
 
-# Setup Groq LLM
+# Load Groq API Key from env
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 llm = ChatGroq(model="llama3-70b-8192", api_key=GROQ_API_KEY)
 
-# Embeddings
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
-# Fetch tables and convert to documents
-
-# Function to fetch tables with titles from URL
+# ------------------ Table Fetcher ------------------
 def fetch_tables_with_titles(url):
     try:
         response = requests.get(url)
         soup = BeautifulSoup(response.content, 'html.parser')
-
         tables = soup.find_all("table")
         all_data = []
+        all_documents = []
 
         for idx, table in enumerate(tables):
             parent = table.find_parent()
             title_tag = parent.find_previous(lambda tag: tag.name in ["h1", "h2", "h3", "h4", "h5", "h6", "span"] and tag.get("class") and "title" in tag.get("class"))
-
             title = title_tag.get_text(strip=True) if title_tag else f"table_{idx+1}"
             df = pd.read_html(str(table))[0]
 
@@ -55,16 +53,21 @@ def fetch_tables_with_titles(url):
                 "title": title,
                 "dataframe": df,
                 "csv_path": csv_path,
-                "xlsx_path": xlsx_path
+                "xlsx_path": xlsx_path,
+                "filename_base": filename_base
             })
 
-        return all_data
+            content = df.to_csv(index=False)
+            document = Document(page_content=content, metadata={"source": filename_base})
+            all_documents.append(document)
+
+        return all_data, all_documents
+
     except Exception as e:
         st.error(f"Failed to fetch tables: {e}")
-        return []
+        return [], []
 
-
-# Build vectorstore and QA chain
+# ------------------ Build Vector DB + QA Chain ------------------
 def build_qa_chain(documents):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
     chunks = text_splitter.split_documents(documents)
@@ -72,28 +75,26 @@ def build_qa_chain(documents):
     qa = RetrievalQA.from_chain_type(llm=llm, retriever=db.as_retriever())
     return qa, db
 
-# Perform DuckDuckGo search
+# ------------------ DuckDuckGo Fallback Search ------------------
 def duckduckgo_search(query):
-    # Send query to DuckDuckGo
     url = f"https://duckduckgo.com/html/?q={query}"
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Extract search result snippets
     results = []
     for result in soup.find_all("a", class_="result__a"):
         results.append(result.text.strip())
 
     return results
 
-# Step 1: Input the URL
+# ------------------ Step 1: Input URL ------------------
 url = st.text_input("🔗 Enter webpage URL to scrape tables:", value="https://www.iitsystem.ac.in/mhrdprojects")
 
-# Step 2: Ingest Tables
+# ------------------ Step 2: Ingest Tables ------------------
 if st.button("🚀 Ingest and Preview Tables"):
     with st.spinner("Fetching and processing tables..."):
         try:
-            tables, documents = fetch_tables_from_url(url)
+            tables, documents = fetch_tables_with_titles(url)
             qa_chain, vectorstore = build_qa_chain(documents)
 
             st.session_state["qa_chain"] = qa_chain
@@ -106,25 +107,29 @@ if st.button("🚀 Ingest and Preview Tables"):
         except Exception as e:
             st.error(f"❌ Failed to process URL: {str(e)}")
 
-# Step 3: Show Tables and Q&A Input (if available)
+# ------------------ Step 3: Show Tables and Q&A Input ------------------
 if "tables" in st.session_state and "qa_chain" in st.session_state:
-    for idx, (table, doc) in enumerate(zip(st.session_state["tables"], st.session_state["documents"])):
-        title = doc.metadata["source"]
+    st.markdown("## 📄 Table Previews & Downloads")
+    for idx, table_data in enumerate(st.session_state["tables"]):
+        title = table_data["title"]
+        df = table_data["dataframe"]
+        filename_base = table_data["filename_base"]
 
-        with st.expander(f"📄 Preview: {title}"):
-            st.dataframe(table)
+        with st.expander(f"📌 {title}"):
+            st.dataframe(df)
 
             col1, col2 = st.columns(2)
             with col1:
-                with open(os.path.join(DATA_DIR, f"{title}.csv"), "rb") as f:
-                    st.download_button("⬇️ Download CSV", f, file_name=f"{title}.csv")
+                with open(table_data["csv_path"], "rb") as f:
+                    st.download_button("⬇️ Download CSV", f, file_name=f"{filename_base}.csv")
 
             with col2:
-                with open(os.path.join(DATA_DIR, f"{title}.xlsx"), "rb") as f:
-                    st.download_button("⬇️ Download XLSX", f, file_name=f"{title}.xlsx")
+                with open(table_data["xlsx_path"], "rb") as f:
+                    st.download_button("⬇️ Download XLSX", f, file_name=f"{filename_base}.xlsx")
 
+    # Q&A Section
     st.markdown("---")
-    st.subheader("💬 Ask a question about the data")
+    st.subheader("💬 Ask a Question About the Data")
 
     question = st.text_input("Type your question here:")
     if st.button("Ask Question"):
@@ -139,12 +144,11 @@ if "tables" in st.session_state and "qa_chain" in st.session_state:
         else:
             st.warning("Please enter a question.")
 
-    # Step 4: Add Internet Search
+    # Internet Search
     st.markdown("---")
     st.subheader("🌐 Internet Search")
 
     search_query = st.text_input("Type something to search on the internet:")
-
     if st.button("Search Internet"):
         if search_query.strip():
             with st.spinner("Searching the web..."):
