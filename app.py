@@ -25,8 +25,10 @@ st.title("📊 Table Scraper and Chatbot for Table Insight Using LLM QA")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 llm = ChatGroq(model="llama3-70b-8192", api_key=GROQ_API_KEY)
 
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+from sentence_transformers import SentenceTransformer
 
+model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model=model)
 # ------------------ Table Fetcher ------------------
 def fetch_tables_with_titles(url):
     try:
