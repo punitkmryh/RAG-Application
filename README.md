@@ -25,7 +25,6 @@ Here's exactly what we’ll do:
 table-extractor-rag/
 │
 ├── app.py                    # Streamlit app
-├── ingest_url.py            # Fetches & chunks table text, saves FAISS
 ├── requirements.txt
 ├── .env                     # Contains GROQ API Key
 ├── vectorstore/             # Stores FAISS index (after ingestion)
