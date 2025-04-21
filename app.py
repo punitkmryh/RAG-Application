@@ -1,46 +1,41 @@
 import os
+from uuid import uuid4
 import requests
-import streamlit as st
 import pandas as pd
 from bs4 import BeautifulSoup
-from io import BytesIO
-from uuid import uuid4
+import streamlit as st
+from dotenv import load_dotenv
 
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.document_loaders import DataFrameLoader
 from langchain.chains import RetrievalQA
-from langchain_groq import ChatGroq
-from langchain.schema import Document
 
-# ------------------ Setup ------------------
+# For Groq chatbot
+from langchain_groq import ChatGroq
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+
+# Load environment variables
+load_dotenv()
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY", "")
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
-st.set_page_config(page_title="🧠 TableSense AI", layout="wide")
-st.title("📊 Table Scraper and Chatbot for Table Insight Using LLM QA")
-
-# Load Groq API Key from env
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-llm = ChatGroq(model="llama3-70b-8192", api_key=GROQ_API_KEY)
-
-from sentence_transformers import SentenceTransformer
-
-model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model=model)
-# ------------------ Table Fetcher ------------------
+# ---------------- TABLE SCRAPING ----------------
 def fetch_tables_with_titles(url):
     try:
         response = requests.get(url)
         soup = BeautifulSoup(response.content, 'html.parser')
+
         tables = soup.find_all("table")
         all_data = []
-        all_documents = []
 
         for idx, table in enumerate(tables):
             parent = table.find_parent()
             title_tag = parent.find_previous(lambda tag: tag.name in ["h1", "h2", "h3", "h4", "h5", "h6", "span"] and tag.get("class") and "title" in tag.get("class"))
+
             title = title_tag.get_text(strip=True) if title_tag else f"table_{idx+1}"
             df = pd.read_html(str(table))[0]
 
@@ -55,114 +50,88 @@ def fetch_tables_with_titles(url):
                 "title": title,
                 "dataframe": df,
                 "csv_path": csv_path,
-                "xlsx_path": xlsx_path,
-                "filename_base": filename_base
+                "xlsx_path": xlsx_path
             })
 
-            content = df.to_csv(index=False)
-            document = Document(page_content=content, metadata={"source": filename_base})
-            all_documents.append(document)
-
-        return all_data, all_documents
-
+        return all_data
     except Exception as e:
         st.error(f"Failed to fetch tables: {e}")
-        return [], []
+        return []
 
-# ------------------ Build Vector DB + QA Chain ------------------
-def build_qa_chain(documents):
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    chunks = text_splitter.split_documents(documents)
-    db = FAISS.from_documents(chunks, embeddings)
-    qa = RetrievalQA.from_chain_type(llm=llm, retriever=db.as_retriever())
-    return qa, db
+# ---------------- VECTOR INGESTION ----------------
+# ---------------- VECTOR INGESTION ----------------
+def ingest_table(df):
+    # Convert all columns to strings to avoid validation errors
+    df = df.applymap(str)  # Apply str conversion to all elements in the dataframe
 
-# ------------------ DuckDuckGo Fallback Search ------------------
-def duckduckgo_search(query):
-    url = f"https://duckduckgo.com/html/?q={query}"
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
+    loader = DataFrameLoader(df, page_content_column=df.columns[0])
+    docs = loader.load()
 
-    results = []
-    for result in soup.find_all("a", class_="result__a"):
-        results.append(result.text.strip())
+    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+    split_docs = splitter.split_documents(docs)
 
-    return results
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")  # Uses CPU by default now
+    db = FAISS.from_documents(split_docs, embeddings)
+    return db
 
-# ------------------ Step 1: Input URL ------------------
-url = st.text_input("🔗 Enter webpage URL to scrape tables:", value="https://www.iitsystem.ac.in/mhrdprojects")
 
-# ------------------ Step 2: Ingest Tables ------------------
-if st.button("🚀 Ingest and Preview Tables"):
-    with st.spinner("Fetching and processing tables..."):
-        try:
-            tables, documents = fetch_tables_with_titles(url)
-            qa_chain, vectorstore = build_qa_chain(documents)
+# ---------------- STREAMLIT UI ----------------
+st.set_page_config(page_title="Table Scraper + Q&A + Groq Chatbot", layout="wide")
+st.title("📊 Table Scraper + 🧠 LLM Q&A + 🤖 Groq Chatbot")
 
-            st.session_state["qa_chain"] = qa_chain
-            st.session_state["vectorstore"] = vectorstore
-            st.session_state["tables"] = tables
-            st.session_state["documents"] = documents
+# URL Input
+url = st.text_input("Enter a webpage URL containing HTML tables")
 
-            st.success(f"✅ {len(tables)} tables ingested and ready for Q&A!")
-
-        except Exception as e:
-            st.error(f"❌ Failed to process URL: {str(e)}")
-
-# ------------------ Step 3: Show Tables and Q&A Input ------------------
-if "tables" in st.session_state and "qa_chain" in st.session_state:
-    st.markdown("## 📄 Table Previews & Downloads")
-    for idx, table_data in enumerate(st.session_state["tables"]):
-        title = table_data["title"]
-        df = table_data["dataframe"]
-        filename_base = table_data["filename_base"]
-
-        with st.expander(f"📌 {title}"):
-            st.dataframe(df)
-
+if url:
+    table_data = fetch_tables_with_titles(url)
+    if table_data:
+        st.success(f"Found {len(table_data)} table(s)!")
+        for entry in table_data:
+            st.subheader(entry['title'])
+            st.dataframe(entry['dataframe'])
             col1, col2 = st.columns(2)
             with col1:
-                with open(table_data["csv_path"], "rb") as f:
-                    st.download_button("⬇️ Download CSV", f, file_name=f"{filename_base}.csv")
-
+                st.download_button("Download CSV", data=open(entry['csv_path'], 'rb'), file_name=os.path.basename(entry['csv_path']))
             with col2:
-                with open(table_data["xlsx_path"], "rb") as f:
-                    st.download_button("⬇️ Download XLSX", f, file_name=f"{filename_base}.xlsx")
+                st.download_button("Download Excel", data=open(entry['xlsx_path'], 'rb'), file_name=os.path.basename(entry['xlsx_path']))
 
-    # Q&A Section
-    st.markdown("---")
-    st.subheader("💬 Ask a Question About the Data")
+        selected_title = st.selectbox("Select a table to chat with:", [t["title"] for t in table_data])
+        selected_df = next(t for t in table_data if t["title"] == selected_title)["dataframe"]
 
-    question = st.text_input("Type your question here:")
-    if st.button("Ask Question"):
-        if question.strip():
-            with st.spinner("🧠 Thinking..."):
-                try:
-                    qa_chain = st.session_state["qa_chain"]
-                    result = qa_chain.run(question)
-                    st.markdown(f"**🧠 Answer:** {result}")
-                except Exception as e:
-                    st.error(f"❌ Error: {str(e)}")
-        else:
-            st.warning("Please enter a question.")
+        qa_question = st.text_input(f"Ask a question about '{selected_title}'")
 
-    # Internet Search
-    st.markdown("---")
-    st.subheader("🌐 Internet Search")
+        if qa_question:
+            with st.spinner("Ingesting and thinking..."):
+                db = ingest_table(selected_df)
+                qa_chain = RetrievalQA.from_chain_type(llm=ChatGroq(model="gemma2-9b-it", api_key=os.environ["GROQ_API_KEY"]),
+                                                       retriever=db.as_retriever())
+                response = qa_chain.run(qa_question)
+                st.success("Answer:")
+                st.write(response)
 
-    search_query = st.text_input("Type something to search on the internet:")
-    if st.button("Search Internet"):
-        if search_query.strip():
-            with st.spinner("Searching the web..."):
-                try:
-                    search_results = duckduckgo_search(search_query)
-                    if search_results:
-                        st.markdown("**🌍 Search Results:**")
-                        for idx, result in enumerate(search_results):
-                            st.write(f"{idx + 1}. {result}")
-                    else:
-                        st.warning("No search results found.")
-                except Exception as e:
-                    st.error(f"❌ Error during search: {str(e)}")
-        else:
-            st.warning("Please enter a search query.")
+# ---------------- GROQ CHATBOT ----------------
+st.divider()
+st.subheader("💬 General Groq Chatbot")
+
+input_text = st.text_input("What question do you have in mind?", key="general_q")
+
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a helpful assistant. Please respond to the question."),
+    ("user", "Question: {question}")
+])
+
+if input_text:
+    try:
+        # Change the model to an available one
+        llm = ChatGroq(
+            model="llama-3.3-70b-versatile",  # Use a different, available model
+            api_key=os.environ["GROQ_API_KEY"]
+        )
+        chain = prompt | llm | StrOutputParser()
+        with st.spinner("Thinking..."):
+            response = chain.invoke({"question": input_text})
+        st.success("Response:")
+        st.write(response)
+    except Exception as e:
+        st.error(f"Error generating response: {e}")
+        st.write("Please check your model name or API access.")
