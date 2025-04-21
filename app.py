@@ -8,7 +8,6 @@ from langchain.llms import BaseLLM
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from duckduckgo_search import DDGS
-from ingest import ingest_data_from_folder, query_vector_store
 from bs4 import BeautifulSoup
 from groq import Groq
 
