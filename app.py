@@ -1,34 +1,51 @@
 import os
-import requests
 import streamlit as st
+import requests
 import pandas as pd
+from uuid import uuid4
+from dotenv import load_dotenv
+from langchain.llms import BaseLLM
+from langchain.prompts import PromptTemplate
+from langchain.chains import LLMChain
+from duckduckgo_search import DDGS
+from ingest import ingest_data_from_folder, query_vector_store
 from bs4 import BeautifulSoup
-from io import BytesIO
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain_community.document_loaders import TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.chains import RetrievalQA
-from langchain_groq import ChatGroq
-from langchain.schema import Document
+from groq import Groq
 
-# Set up paths
+# Load environment variables
+load_dotenv()
+
+# Constants
 DATA_DIR = "data"
+VECTOR_STORE_DIR = "vector_store"
 os.makedirs(DATA_DIR, exist_ok=True)
 
-st.set_page_config(page_title="🧠 TableSense AI", layout="wide")
-st.title("📊 Table Scraper and Chatbot for Table insight using LLM QA")
-
-# Setup Groq LLM
+# Get API keys from .env
+LLAMA3_API_KEY = os.getenv("LLAMA3_API_KEY")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-llm = ChatGroq(model="llama3-70b-8192", api_key=GROQ_API_KEY)
+LANGCHAIN_API_KEY = os.getenv("LANGCHAIN_API_KEY")
+HUGGINGFACEHUB_API_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
-# Embeddings
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+# Groq setup
+groq_model = Groq(api_key=GROQ_API_KEY)
 
-# Fetch tables and convert to documents
+# LangChain LLM wrapper
+class LangChainLLM(BaseLLM):
+    def __init__(self, api_key: str):
+        self.api_key = api_key
 
-# Function to fetch tables with titles from URL
+    def _call(self, prompt: str) -> str:
+        headers = {"Authorization": f"Bearer {self.api_key}"}
+        data = {"prompt": prompt, "max_tokens": 150}
+        response = requests.post(
+            "https://api.langchain.com/v1/completion", headers=headers, json=data
+        )
+        response_data = response.json()
+        return response_data.get("choices", [{}])[0].get("text", "No response")
+
+llama_model = LangChainLLM(api_key=LANGCHAIN_API_KEY)
+
+# ✅ Fetch Tables with Titles Function
 def fetch_tables_with_titles(url):
     try:
         response = requests.get(url)
@@ -63,100 +80,80 @@ def fetch_tables_with_titles(url):
         st.error(f"Failed to fetch tables: {e}")
         return []
 
+# Streamlit UI
+st.set_page_config(page_title="Chatbot for Table Insights")
+st.title("💬 Chatbot for Table Insights")
 
-# Build vectorstore and QA chain
-def build_qa_chain(documents):
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    chunks = text_splitter.split_documents(documents)
-    db = FAISS.from_documents(chunks, embeddings)
-    qa = RetrievalQA.from_chain_type(llm=llm, retriever=db.as_retriever())
-    return qa, db
+# -------------------------------
+# 🔍 URL Input & Fetching Tables
+# -------------------------------
+url = st.text_input("Enter a URL to extract tables from:")
 
-# Perform DuckDuckGo search
-def duckduckgo_search(query):
-    # Send query to DuckDuckGo
-    url = f"https://duckduckgo.com/html/?q={query}"
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
+if st.button("Fetch Tables"):
+    if url:
+        with st.spinner("Fetching tables and saving to disk..."):
+            all_tables = fetch_tables_with_titles(url)
 
-    # Extract search result snippets
-    results = []
-    for result in soup.find_all("a", class_="result__a"):
-        results.append(result.text.strip())
+            if not all_tables:
+                st.warning("No tables found.")
+            else:
+                for table_info in all_tables:
+                    st.subheader(f"📌 {table_info['title']}")
+                    st.dataframe(table_info["dataframe"], use_container_width=True)
 
-    return results
+                    st.download_button("Download CSV", open(table_info["csv_path"], "rb"), file_name=os.path.basename(table_info["csv_path"]), mime="text/csv")
+                    st.download_button("Download Excel", open(table_info["xlsx_path"], "rb"), file_name=os.path.basename(table_info["xlsx_path"]), mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
 
-# Step 1: Input the URL
-url = st.text_input("🔗 Enter webpage URL to scrape tables:", value="https://www.iitsystem.ac.in/mhrdprojects")
+                with st.spinner("Running ingestion pipeline..."):
+                    ingest_data_from_folder(DATA_DIR, VECTOR_STORE_DIR)
+                st.success("✅ Ingestion completed. Vector store is updated.")
+    else:
+        st.warning("Please enter a valid URL.")
 
-# Step 2: Ingest Tables
-if st.button("🚀 Ingest and Preview Tables"):
-    with st.spinner("Fetching and processing tables..."):
-        try:
-            tables, documents = fetch_tables_from_url(url)
-            qa_chain, vectorstore = build_qa_chain(documents)
+# -------------------------------
+# 💬 Chatbot Q&A Section
+# -------------------------------
+question = st.text_input("Ask a question related to the data:")
 
-            st.session_state["qa_chain"] = qa_chain
-            st.session_state["vectorstore"] = vectorstore
-            st.session_state["tables"] = tables
-            st.session_state["documents"] = documents
+if question:
+    with st.spinner("Processing your query..."):
+        answer_from_db = query_vector_store(question, VECTOR_STORE_DIR)
 
-            st.success(f"✅ {len(tables)} tables ingested and ready for Q&A!")
-
-        except Exception as e:
-            st.error(f"❌ Failed to process URL: {str(e)}")
-
-# Step 3: Show Tables and Q&A Input (if available)
-if "tables" in st.session_state and "qa_chain" in st.session_state:
-    for idx, (table, doc) in enumerate(zip(st.session_state["tables"], st.session_state["documents"])):
-        title = doc.metadata["source"]
-
-        with st.expander(f"📄 Preview: {title}"):
-            st.dataframe(table)
-
-            col1, col2 = st.columns(2)
-            with col1:
-                with open(os.path.join(DATA_DIR, f"{title}.csv"), "rb") as f:
-                    st.download_button("⬇️ Download CSV", f, file_name=f"{title}.csv")
-
-            with col2:
-                with open(os.path.join(DATA_DIR, f"{title}.xlsx"), "rb") as f:
-                    st.download_button("⬇️ Download XLSX", f, file_name=f"{title}.xlsx")
-
-    st.markdown("---")
-    st.subheader("💬 Ask a question about the data")
-
-    question = st.text_input("Type your question here:")
-    if st.button("Ask Question"):
-        if question.strip():
-            with st.spinner("🧠 Thinking..."):
-                try:
-                    qa_chain = st.session_state["qa_chain"]
-                    result = qa_chain.run(question)
-                    st.markdown(f"**🧠 Answer:** {result}")
-                except Exception as e:
-                    st.error(f"❌ Error: {str(e)}")
+        if answer_from_db:
+            st.write(f"Answer from Vector Store: {answer_from_db}")
         else:
-            st.warning("Please enter a question.")
+            st.write("No relevant data found in vector store. Searching the internet...")
 
-    # Step 4: Add Internet Search
-    st.markdown("---")
-    st.subheader("🌐 Internet Search")
+            # DuckDuckGo fallback
+            search_results = DDGS(question)
+            if search_results:
+                st.write("Search Results from DuckDuckGo:")
+                for result in search_results:
+                    st.write(f"- {result['title']} ({result['url']})")
 
-    search_query = st.text_input("Type something to search on the internet:")
+                combined_prompt = f"User asked: {question}\n\nContext from DuckDuckGo:\n"
+                for result in search_results:
+                    combined_prompt += f"{result['title']} - {result['url']}\n"
 
-    if st.button("Search Internet"):
-        if search_query.strip():
-            with st.spinner("Searching the web..."):
+                if answer_from_db:
+                    combined_prompt += f"\nContext from vector store: {answer_from_db}"
+
                 try:
-                    search_results = duckduckgo_search(search_query)
-                    if search_results:
-                        st.markdown("**🌍 Search Results:**")
-                        for idx, result in enumerate(search_results):
-                            st.write(f"{idx + 1}. {result}")
-                    else:
-                        st.warning("No search results found.")
+                    langchain_response = llama_model._call(combined_prompt)
+                    st.write(f"Chatbot Answer: {langchain_response}")
                 except Exception as e:
-                    st.error(f"❌ Error during search: {str(e)}")
-        else:
-            st.warning("Please enter a search query.")
+                    st.error(f"Error generating response: {e}")
+            else:
+                st.write("No search results found.")
+
+# -------------------------------
+# 🔁 Backup Model Query (Groq)
+# -------------------------------
+def query_llama_or_grok(prompt):
+    try:
+        response = llama_model._call(prompt)
+        if not response:
+            response = groq_model.query(prompt)
+        return response
+    except Exception as e:
+        return f"Error during querying: {e}"
