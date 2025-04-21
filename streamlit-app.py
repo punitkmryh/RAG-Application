@@ -93,7 +93,7 @@ url = st.text_input("🔗 Enter webpage URL to scrape tables:", value="https://w
 if st.button("🚀 Ingest and Preview Tables"):
     with st.spinner("Fetching and processing tables..."):
         try:
-            tables, documents = fetch_tables_from_url(url)
+            tables, documents = fetch_tables_with_titles(url)
             qa_chain, vectorstore = build_qa_chain(documents)
 
             st.session_state["qa_chain"] = qa_chain
