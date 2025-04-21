@@ -1,0 +1,516 @@
+SNo,Project Name,Scheme Name,PI Details
+1,Rural Technology Action Group (RuTAG) IIT Roorkee for the State of Uttarakhand,"DST, New Delhi",Dr. R.P. Gakkhar DST-475-AHC
+2,Monitoring Hydro-abrasive erosion and suspended sediment for optimal operation of Hydropower plant,"NHPC, Faridabad",Dr. S.K. Singhal NPC-1282-AHC
+3,Recycling of reverse osmosis reject water for co-production of high value metabolites and biofuel precursors using high density algad cultivation,"SERB, New Delhi",Dr. Sanjeev Kumar Prajapati IMP-1431-HRD
+4,Development of microalgal biofilm reactor coupled constructed wetland (MBR-CW) system for decentralized waste water treatment,"USCS&T, Dehradun",Prof. Sanjeev Kumar Prajapati UST-1656-HRD
+5,Development of solar powered decentralized fertilizer production cum-irrigation units,"DST, New Delhi",Prof. Pratham Arora DST-1714-HRD
+6,Smart cyber - physical security of electric powertrains in autonomous e-mobility systems,"IHUB NTIHAC Foundation, IIT Kanpur",Prof. Deepak Ronanki INF-1754-HRD
+7,Resource recovery and biofuel production through algae cultivation in hydroponic wastewater : pilot-scale studies towards circular bioeconomy,"SERB, New Delhi",Prof. Sanjeev Kumar Prajapati SER-1766-HRD
+8,Modular and Reconfigurable High-power Fast Charging Topologies for Next-Generation e-Transportation Systems,"SERB, New Delhi",Prof. Deepak Rononki SER-1770-HRD
+9,"Work order for the Efficiency/Performance testing of Mallapur Mini Hydel Scheme (2x4.5 MW) at Mallapur Village, Taluk- Gangavathi, Koppal-District, Karnataka",Engineered Power Resource India Pvt. Ltd. Banglore,Prof. Arun Kumar EPR-1775-HRD
+10,Waste algae to biogas for clean energy and environment techno-environ-economic prospects,"DST, New Delhi",Prof. Sanjeev Kumar Prajapati DST-1786-HRD
+11,Collaborative engagement for evaluation of torrefied biomass product application in Soil,Takachar (Himalayan Sustainable energy solutions private limited),Prof. SonalK. Thengane TKC-1791-HRD
+12,Innovative lightweight cylindrical PEM fuel cells based on conducting plastic,"SERB, New Delhi",Prof. Amit Chandrakant Bhosale SER-1804-HRD
+13,Machine Learning-based dynamic climate projections for power system planning datasets,University of Colorado Boulder,Prof. Himanshu Jain UCB-1847-HRD
+14,Water for welfare: An Uttaranchal Initiative set up as a Virtual Centre in the form of Federation with its Secretariat at IIT Roorkee,Govt. of Uttaranchal,Prof. Arun Kumar AUI-171-AHC
+15,"Training of technicians for system design, installation, operation, maintenance and repair of renewable energy systems at grass root level-jal Urja Mitra Programme (Small Hydro)","Ministry of New and Renewable Energy, New Delhi",Prof. Arun Kumar MNE-1877-HRD
+16,Exploring low-Carbon transportation pathways for India,New Venture Fund-FNCE- Indian Institute of Technology,Prof. Pratham Arora NVF-1887-HRD
+17,Development of National Scheme for advanced grid-scale energy storage technologies,"New Venture Fund, Washington DC, USA",Prof. Arun Kumar NVF-1906-HRD
+18,Development of advanced nanocomposite proton exchange membrane based fuel cells suitable for automobile applications,"Schaeffler India Limited, Baner, Pune, Maharashtra",Prof. Amit Bhosale SIL-1956-HRD
+19,Circular economy based framework for cattle shelters operating biogas plants,"SERB, New Delhi",Prof. Sonal K. Thengane SER-1934-HRD
+20,Ecological health indicator assessment of significant water sources in uttarakhand,"Indian National Science Academy, New Delhi",Prof. Sanjeev kumar Prajapati INS-1981-HRD
+21,Block chain based P2P energy trading platorm for rooftop solar PV Users,"IIT Bhilai Innovation and technology foundation (IBITF) Raipur, Chattisgarh",Prof. Rhythm Singh IBI-2055-HRD
+22,Research partnership agreement between WIPRO Ltd. And IIT Roorkee,"MNRE , NEW DELHI",Prof. Arun Kumar MNE-2057-HRD
+23,Zero Peak Energy Building Design for India (ZED-i),DST New Delhi,Dr. Rajasekar Elangovan DST-1161-APD
+24,"Mission Innovation- Affordable Heating and cooling of Buildings Innovation challenge - resource unit for scientific and Technical Analysis, Management and Coordination","DST, New Delhi",Dr. E. Rajasekar DST-1415-APD
+25,An integrated framework for disaster risk reduction and climate change adaption,"ICSSR, New Delhi",Prof. Ram Sateesh Pasupuleti ICS-1545-APD
+26,Design and Development of a decision support system for early identification of Deaf and Hard of Hearing Neonates and Infants in Rural India,"ICMR, New Delhi",Prof. SonalAtreya ICM-1798-APD
+27,Benchmark Survey and Developing Tribal Development Index,Dr. Ramdayal Munda Tribal Welfare Research Institute,Prof. Harshit SosanLakra TRI-1819-APD
+28,Designing a prototype settlement for a contemporary sustainable town as per the prescriptions of vaastushastra,"Indian Knowledge systems division AICTE, MOE",Prof. Avlokita Agarwal IKS-1885-APD
+29,Study of learning spaces using mobile EEG neurofeedback to understand the impact of different built-environment stimuli on cognition,"SERB, New Delhi",Prof. Prabhjot Singh Chani SER-1913-APD
+30,Climate resilient energy secure and healthy built environment (CREST),British Council (Funds released to University of Bath),Prof. Rajasekar Elangovan UOB-1916-APD
+31,"Global urban planning educational consortium collaboration agreement b/w the university of new castle upon tyne & IIT Roorkee & School of planning of Architecture, Delhi","Collaboration agreement b/w the university of New Castle upon tyne & IIT Roorkee & School of Planning of Architecture, Delhi",Prof. Arindam Biswas NCU-1931-APD
+32,A Comprehensive GIS-based toolkit for investigating the cultural routes of bhotia’s trade routes in uttarakhand,"DST, New Delhi",Prof. Ram Sateesh Pasupuleti DST-2017-APD
+33,A semi-analytical Method for hyperbolic conservation Law : application to Riemann problem,"SERB, New Delhi",Prof. Rajan Arora SER-1843-ASE
+34,To investigate approximate controllability results of impulsive differential systems,"CSIR, New Delhi",Prof. Jaydev CSR-1697-ASE
+35,Controllability results of semi-linear impulsive differential equations,"DAE, Mumbai",Prof. JaydevDabas DAE-1705-ASE
+36,Solutions of some non-linear evolution equations using homotopy analysis method,Uttarakhand state council for science and technology,Prof. Rajan Arora UST-1820-ASE
+37,An experimental investigation of the formulation to reduce the foaming issues in high-speed printing by the addition of a sustainable catalyst,UFLEX LTD. (Chemical Division Noida),Prof. Millie Pant UFL-2015-ASE
+38,In Vitro Cell based Characterization at some Synthetic drugs for anti-cancer /other activities,"Michigan Diagnostic, Michigan, USA",Dr. Partha Roy MDM-1204-BIO
+39,Mitigation of food borne pathogens using combination of natural food grade peptides decorated on nanoparticles; development of safe and active antimicrobial packaging film.,"STAR, MHRD, Bangalore",Dr. N.K. Navani STR-1493-BIO
+40,Investigating gene regulatory networks operating downstream of OsAP/ERF – 40 during rice adventitious root development,"SERB, New Delhi",Prof. Shri Ram Yadav SER-1525-BIO
+41,Discovery of structure – based antivirals against SARS-Cov2 targeting key viral genome replication enzymes,"SERB, New Delhi",Prof. Pravindrakumar SER-1548-BIO
+42,Enyme engineering for bio-degradation of plasticizers in PPCPS,"DST, New Delhi",Prof. Pravindra Kumar DST-1551-BIO
+43,Prospecting and assessment of certain indigenous recipes of badritulsi from aridwarc highlands,"USCS&T, Dehradun",Prof. N.K. Navani UST-1594-BIO
+44,“Assess the role of Indian mustard honey towards management and cure of drugs resistance colon cancer and its metastasis singly or in combination with potent drugs”,"National Bee Board, New Delhi",Prof. Partha Roy NBB-1634-BIO
+45,Role of integrin and GTPases associated signaling cascades in innate immune cell activation and migration during sepsis,"SERB, New Delhi",Prof. P.P. Sarangi SER-1647-BIO
+46,DBT M.ScProgramme,"DBT, New Delhi",Prof. Debabrata Sircar  DBT-1650-BIO
+47,Protein Nanoparticles based development of universal influenza vaccine,"SERB, New Delhi",Prof. ShaillyTomar SER-1651-BIO
+48,Antivirals against chikungunya virus targeting Rna Viral Capping Machinery,"ICMR, New Delhi",Prof. ShaillyTomar ICM-1654-BIO
+49,Non-invasive early sensing of soft rot and dry rot in stored potato tubers by analysis of volatile organic compound emission,"SERB, New Delhi",Prof. Debabrata Sircar SER-1660-BIO
+50,"Translational and structural Bioinformatics – BIC at Department of Biotechnology, Indian Institute of Technology, Roorkee","DBT, New Delhi",Prof. PravindraKumar DBT-1677-BIO
+51,Screening Bee stings for aridwarcs against bacteremia by streptococcus pneumoniae in children,"DBT, New Delhi",Prof. Srinivas Kiran Ambatipudi DBT-1683-BIO
+52,Scale -up and pre-pilot-scale bioethanol fractional from lignocellulosic biomass by fractional hydrolysis and co-fermentation,"DBT, New Delhi",Prof. Sanjoy Ghosh DBT-1724-BIO
+53,Enhanced lipid production by genetically engineered algal strain : scale-up cultivation and engineering for co-production of value-added isoprenoids,"DBT, New Delhi",Prof. R.P. Singh DBT-1726-BIO
+54,"Development of a comprehensive in vitro and in vivo study design for understanding the pathophysiology of bipolardisorder, associated biomarkers for its probable diagnosis and nutraceutical based therapeutic intervention","SKAN Research Trust, Puducherry",Prof. Partha Roy SKN-1741-BIO
+55,Epigenetic regulation of Cell fate transition during crown root initiation in rice,"SERB ,New Delhi",Prof. Shri Ram Yadav SER-1763-BIO
+56,Phenotypic characterization and gene mapping of novel early rice flowering mutants during the floral transition and seed formation,"SERB, New Delhi",Prof. Shri Ram Yadav SER-1777-BIO
+57,"Development and validation of phone-based App, SwasthGarbh, for improving antenatal care (ameliorating material and fetal health","ICMR, New Delhi",Prof. Deepak Sharma ICM-1795-BIO
+58,Elucidating the genetic architecture of tillering in wheat through CRISPR/CAS based editing of Ideal Plant Architecture gene (IPA1) and TEOSINTE BRANCHED 1 (TB1),"DBT, New Delhi",Prof. Harsh Chauhan DBT-1806-BIO
+59,Elucidating the molecular mechanisms and biomarkers associated with progression and prognosis of retinoblastoma,"SERB, New Delhi",Prof. Krishna Mohan Poluri SER-1807-BIO
+60,India Alliance Fellowship,Welcome Trust India Alliance,Prof. Ranjana Pathania TIA-1815-BIO
+61,Investigating the mechanisms of L1 retrotransposon activation in oral squamous cell carcinoma (OSCC),"SERB, New Delhi",Prof. Prabhat Kumar Mandal SER-1823-BIO
+62,In Vitro screening and efficacy of plant growth promoting rhizobacteria and biocontrol agents in selected vegetable crops to support farmers in aridwarc state,Uttarakhand state council for science and technology,Prof Naveen Kumar Navani UST-1824-BIO
+63,Development of a membrane based kit to find out L1 retrotransposon activity in oral squamous cell carcinoma (OSCC),Uttarakhand state council for science and technology,Prof. Prabaht Kumar Mandal UST-1826-BIO
+64,To study the prevalence phylogency and virulence of linezolid resistant enterococcus facclum in hospital acquired infections and environment,"ICMR, New Delhi",Prof. Ranjana Pathania ICM-1857-BIO
+65,A Comprehensive strategy for enhancing production and alleviating AMR burden on poultry sector via probiotics and alternatives of antibiotics,"DBT, New Delhi",Prof. Naveen Kumar Navani DBT-1859-BIO
+66,Bioprocess development for the production of poultry feed from agro residues by solid state co-fermentation,"Ministry of Fisheries, Animal Husbandry and Dairying",Prof. Sanjoy Ghosh DAH-1867-BIO
+67,For comprehensive and scientific validation of nutritional biological and stability properties of high altitude indian honey samples from north-eastern and western himalayan region,"National Bee Board, Ministry of Agriculture & Farmers",Prof. Partha Roy NBB-1876-BIO
+68,Development of Indigenous synbiotic beverage to boost gut health and immunity,"Uttarakhand Council for Biotechnology, Department of Agriculture , Govt. of Uttarakhand",Prof. Naveen Kumar Navani UCB-1892-BIO
+69,Modelling mitochondrial network in pancreatic B-cells for better therapeutic design,"Chellaram Diabetes Research Centre, Pune",Prof. Jitin Singla CDR-1900-BIO
+70,A comparative metabolomics approach for the analyses of scab-disease resistance in apple and development of a metabolite based non invasive sensor for early scab disease diagnosis,"Indian Council of agricultural research (ICAR) National Agricultural science fund (NASF) , New Delhi",Prof. Debabrata Sircar NAS-1924-BIO
+71,Alignment and clustering of 3D cryo-electron subtomorgrams using SFSC (Spectral Signal – to noise ratio- based fourier shell correlation scoring function for improved reinforcement and structure resolution,"SERB, New Delhi",Prof. Jitin Singla SER-1955-BIO
+72,Role of reactive in trans-synaptic transfer of abnormal,"SERB, New Delhi",Prof. Sachin Suresh Tiwari SER-1989-BIO
+73,Biofortification of millets for enhancement of micronutrients and bioavailability using probiotic yeast & bacteria,"Indian Council Medical research, New Delhi",Prof. Naveen kumar Navani ICM-2003-BIO
+74,Fabrication of bioabsorable rigid internal fixation system using indigenous bioynthesised polymer,"ICMR, New Delhi",Prof. Saugata Hazra ICM-2023-BIO
+75,Understanding retrotrans poson machinery through the delineation of the LINE1-RNP complex composition in mice germ tissue,"DBT, New Delhi",Prof. Prabhat kumar Mandal DBT-2025-BIO
+76,Computer-aided structure-based molecular engineering or nanobodies against SARS-COV-2 Spike Protein,"ICMR, New Delhi",Prof. Shailly Tomar ICM-2030-BIO
+77,Conservation and divergence in the function and regulatory networks downstream of PLETHORA genes in the control of different branching events in rice,Indo-french centre for the promotion of advanced research (IFCPAR)/Department of science & technology,Prof. Shri Ram Yadav CEF-2056-BIO
+78,I.I.T. Roorkee & N.B.C.C. Joint R&D Centre at GNEC Campus,"NBCC, New Delhi",Dr. Umesh Kr. Sharma NBC-849-CED
+79,Increase in Expenditure limit of MOSRT&H Professorial chair by utilization of interest,Endowment Fund Interest of MoSRT&H Professional Chair,Dr. M. Parida IIT-1114-CED
+80,Anaerobic Co-digestion of Organic Fraction of municipal Solid waste and sewage Sludge Effect of the thermo-chemical pretreatment on process performance and microbial community development,"DBT, New Delhi",Dr. Vinay Kumar DBT-1197-CED
+81,Development of a design-through-analysis methodology based on isogeometrictechnology : Application to phase-field Fracture and topology optimization,"SERB, New Delhi",Dr. Rajib Chowdhury SER-1507-CED
+82,RAP Incorporated Geopolymer concrete technology,IIT Roorkee,Prof. G.D. Ransinchung IIT-1520-CED
+83,Topology Optimization of large scale engineering structures : numerical simulations and experimental investigations,"DRDO, New Delhi",Prof. Rajib Chowdhury DRD-1523-CED
+84,SARASWATI 2.0 Identifying best aridwar technologies for decentralized wastewater treatment and resource recovery for india,"DST, New Delhi",Prof. A.A. Kazmi DST-1529-CED
+85,Development of sustainable concrete utilizing mine waste rock,Hindustan Zinc Ltd. Udaipur,Prof. Sonalisa Ray HZL-1537-CED
+86,Fracture and Fatigue studies in textile based auxetic composite,"ISRO, Bengaluru",Prof. Anupam Chakrabarti STC-1560-CED
+87,Mapping dynamic air pollution information to the choices of the travelers towards sustainable transport,"SERB, New Delhi",Prof. Amit Agarwal SER-1578-CED
+88,Polyphasic aridwar of diversity of phototrophic microorganisms from cold environments and their bioprospection potential,"DST, New Delhi",Prof. Raja Chowdhury DST-1589-CED
+89,Advanced oxidation process for complete attenuation of pathogens and antimicrobial resistance in municipality supplied ground water,"DST, New Delhi",Prof. Gargi Singh DST-1609-CED
+90,Halting the release of antimicrobial resistance,"SERB, New Delhi",Prof. Gargi Singh SER-1622-CED
+91,Modelling simulations and dynamics fracture,"DRDO, Chandigarh",Prof. Sonalisa Ray DRD-1671-CED
+92,Behaviour of soil slopes with embedded pipeline subjected to blast loading and liquefaction effects,"DAE, Mumbai",Prof. Kaustav Chatterjee DAE-1694-CED
+93,Fracture performance of Reinforced concrete members in coupled corrosion and fatigue environment,"SERB, New Delhi",Prof. Sonalisa Ra y SER-1700-CED
+94,Assessment of GEOPAVE additive efficacy as a potential stabilizer for road works,M/S Garg Son’s Estate PeromotersPvt. Ltd. Chandigarh,Prof. G.D. RansinchungR.N. GEP-1708-CED
+95,Guidelines for micro-piles for mitigation of landslides or slope stabilization,"NDMA, New Delhi",Prof. Priti Maheshwari NDM-1712-CED
+96,Development of guidelines for use of waste reclaimed water in pavement construction,"Ministry of Road transport &Highway ,New Delhi",Prof. Nikhil Saboo MRH-1730-CED
+97,Submerged vanes for river training and sediment management in streams and their field application,"Ministry of ports, Shipping and waterways",Prof. Zulfequar Ahmad MSR-1740-CED
+98,Hindon Roots sensing HIROS River Rejuvenation through scalable water- and Solute Balance Modelling and informed Farmers Actions,"DST, New Delhi",Prof. R. Vinnarasi DST-1743-CED
+99,Replenishment study of aridwar and its tributaries in aridwarc state,"Director, Geology and Mining, Chattisgarh",Prof. Zulfequar Ahmad GMC-1750-CED
+100,Probabilistic analysis of failure criteria of rocks under triaxial state of stress,"SERB, New Delhi",Prof. Priti Maheshwari SER-1756-CED
+101,Computational multiscale modeling as a virtual experimental setup for prediction of elastic and inelastic response of unidirectional fibre reinforced polymer composites,"DRDO, New Delhi",Prof. ShubhankarRoy Chowdhury DRD-1759-CED
+102,Multiscale virtual testing and experiments of FRP composites for high-speed train and infrastructure applications,"SERB ,New Delhi",Prof. ShubhankarRoy Chowdhury SER-1762-CED
+103,Rapid Estimation of flood extents using synthetic aperture radar and deep learning,"SERB, New Delhi",Prof. Alok Bhardwaj SER-1772-CED
+104,Comprehensive characterization of variably processed sewage sludge in ganga basin to classify its suitability for safe disposal,Central Pollution Control Board,Prof. A.A. Kazmi CPC-1787-CED
+105,Advanced transport Modelling and Simulation of National Highways in Inida under CATTS,"Indian academy of Highway Engineers (IAHE), Noida",Prof. Amit Agarwal IAH-1789-CED
+106,Effects of sludge modification on treatment efficiency of algae-based wastewater treatment : batch and continuous sudy and sustainability assessment of the same as an emerging technology,"SERB, New Delhi",Prof. Raja Chowdhury SER-1802-CED
+107,Artificial intelligent and remote sensing for nature solutions : from urban trees to landscapes,Habitat Montreal Canada,Prof. Siddhartha Khare HBM-1871-CED
+108,Evaluation of efficacy of Georoadchem for cement treated base employing FDR technique,M/S KGM Technology (PVT.) Ltd. (New Delhi),Prof. G.D. Ransinchung R.N. KGM-1882-CED
+109,Financial assistance for organizing training and Skill internship (VRITIKA) Unravelling the cause and evolution of Meteorological Drought in India Under Changing Climate,"SERB, New DELHI",Prof. R. Vinnarasi SER-1898-CED
+110,Utilization of Industrial wastes in Dense and Gap Graded Asphalt mixes as fIllers,"DST, New Delhi",Prof. Nikhil Saboo (CO-PI) BHU-1901-CED
+111,Assessing the suitability of warm mix asphalt (WMA) Technology using Tribological and performance characteristics,"SERB, New Delhi",Prof. Nikhil Saboo SER-1909-CED
+112,Development of Specifications for use of water plastic in asphalt mixtures : a major step towards building sustainable road infrastructure,"National Rural Infrastructure Development Agency (NRIDA), New Dehli",Prof. Nikhil Saboo NRD-1933-CED
+113,Interlinked seasonal evolution of supraglacial lakes and ice velocity changes of glaciers in greenland,"ISRO, Bengaluru",Prof. Saurabh Vijay STC-1936-CED
+114,Structural fire performance of Ignisilex malta 4 Protection Mortar,MAPEI Construction products India Pvt. Ltd.,Prof. Umesh kumar Sharma MCP-1962-CED
+115,Identiying Current & future GLOF risk over contrasting topographic and climate zones of indian himalya using earth observations date and modeling,"Ministry of Earth Sciences, New Delhi",Prof. Saurabh Vijay MOE-1976-CED
+116,SERB N-PDF,"SERB, New DELHI",Prof. Indrajit Ghosh SER-1982-CED
+117,SERB N-PDF,"SERB, New DELHI",Dr. Ritvik Dhanraj Chauhan SER-1988-CED
+118,Design - flood estimation for resilient hydraulic structures under changing climate and environment,"SERB, New Delhi",Prof. Vinnarasi Rajendran SER-2026-CED
+119,Reliability based design of tunnels in anisotropic spatially variable residual soil slopes,"SERB, New Delhi",Prof. Akansha Tyagi SER-2040-CED
+120,Maximizing carbon sequestration in cement-based construction through material innovation and additive manufacturing,"DST , New Delhi",Prof. Anjaneya Dixit DST-2052-CED
+121,Investigations on selective proliferation and transport of antibiotic resistant bacteria (ARBs) by micro plastics,"ICMR, New Delhi",Prof. Sudipta Sarkar ICM-2053-CED
+122,AI- Based Geo-enabled crop insurance and farm equipment renting solutions under bhoomi cam pvt. Ltd start up,"IIT Bhilai Innovation and technology foundation (IBITF) Raipur, Chattisgarh",Prof. Siddhartha Khare IBI-2054-CED
+123,FIST Grant,"DST, New Delhi",Head DST-1347-CHD
+124,One step treatment of metal contaminated waste water with co-synthesis of nano-metal carbon hybrids and generation of H2 rich fuel gas mixture,"SERB, New Delhi",Prof. N.Siva Mohan Reddy SER-1612-CHD
+125,SERB-N-PDF,"SERB, New Delhi",Ms. Geetanjli SER-1646-CHD
+126,Study of Segregation behavior of Non-spherical particles in a vibrating Packed Bed using Discrete element method and radioactive particle tracking,"SERB, New Delhi",Prof. Anshu Anand SER-1675-CHD
+127,Scale up studies on In-situ Co-hydrothermal synthesis of gaseous fuels and nanometal carbon hybrids from metal contaminated waste water and biomass,"DST, New Delhi",Prof. N.Siva Mohan Reddy DST-1711-CHD
+128,Simultaneous recalcitrant pollutant degradation coupled with carbon dioxide conversion to value-added fuels in a photoelectrochemical cell,"SERB, New Delhi",Prof. Ashish Yadav SER-1764-CHD
+129,"Studying drug diffusion in multiresponsive, multilayered polymeric materials for applications in oral and ocular delivery","SERB, New Delhi",Prof. Prateek Kumar Jha SER-1765-CHD
+130,Extended forchheimer type modified darcys’ law for a combination of a porous and non-porous system for non-newtonian fluids for coating applications,"SERB, New Delhi",Prof. Amit Kumar Dhiman SER-1835-CHD
+131,Biomass Gasification through plasma pyrolysis technology for chemicals production,"MNRE, New Delhi",Prof. Vimal Kumar MNE-1861-CHD
+132,Prototype development to treat pesticide residue in surface water bodies in rural areas,"Ministry of Jal shakti, Department of Driniking water and sanitation",Prof. Sumana Ghosh MJS-1954-CHD
+133,Optimization of the performance of rotary kiln to maximize percentage metallization including use of natural gas/syngas as reductant,"Bureau of energy efficiency, New Delhi",Prof. Shabina Khanam BEE-1969-CHD
+134,Development of Physics models for capacity fade prediction of the battery for oorja,Oorja Energy Bangalore,Prof. Ashwini kumar Sharma OEB-1984-CHD
+135,Reduced order model development for state of charge estimation in a lithium ion battery management system,"SERB, New Delhi",Prof. Ashwini kumar Sharma SER-2008-CHD
+136,synthesis of novel antibacterial nanometal carbon hybrids agents along with H2 from waste biomass,"DBT, New Delhi",Prof. Siva Mohan Reddy Narapureddy DBT-2013-CHD
+137,studies on development of low GWP chemicals,"MINISTRY OF ENVIRONMENT FOREST AND CLIMATE CHANGE OZONE CELL, NEW DELHI",Prof. V.C. Srivastava MFC-2018-CHD
+138,development of biodegradable intracameral implants and drug-loaded inro,"SERB, New Delhi",Prof. Prateek kumar Jha SER-2019-CHD
+139,Synergistic design and thermal performance analysis of a liquid coded microfluidic thermal management system for a lithium-ion battery pack for electric vehicles,"SERB, New Delhi",Prof. Ram prakash bharti SER-2033-CHD
+140,water powered safe and affordable zinc sulfar battery,"Tata Steel Limited Chennai, Tamil Nadu",Prof. Ashwini kumar Sharma TSL-2048-CHD
+141,INSPIRE Faculty Award,"DST, New Delhi",Dr. Dheeraj Kumar DST-1302-CMD
+142,FIST Grant,"DST, New Delhi",Head DST-1384-CMD
+143,Ramanujan Fellowship,"SERB, New Delhi",Dr. Ravindra Pandey SER- 1414-CMD
+144,Probing the molecular orientation and charge transfer dynamics at interfaces for the design and fabrication of more efficient optoelectronics devices,"STAR, MHRD, New Delhi",Prof. Ravindra Pandey STR-1521-CMD
+145,Heteroatoms enriched nanopours materials for high performance supercapacitos applications in non-aqueous medium,"ISRO, Bengaluru",Prof. Paritosh Mohanty STC-1565-CMD
+146,Inspire Faculty Award,"DST, New Delhi",Prof. Pavan Kr. B.V.V.S DST-1590-CMD
+147,Dynamic and reconfigurable self-assembly of active microcompartments at oil water interface,"SERB, New Delhi",Prof. Pavan Kumar B.V.V.S SER-1604-CMD
+148,chemical proteomic approach to identify small molecule superoxide dismutase (SoD) Inhibitors for cancer therapeutics,"SERB, New Delhi",Prof. Venkatesh V. SER-1606-CMD
+149,Removal of lead toxicity from halide perovskite nanocrystals in ambient condition,"SERB, New Delhi",Prof. Prasenjit Kar SER-1607-CMD
+150,Synthesis of p Extended corroles chlorins and porphyrins for anion sensing catalysis Nonlinear optical and solar cell applications,"SERB, New Delhi",Prof. Muniappan Sankar SER-1625-CMD
+151,Conversion of biomass from flora of aridwarc into high valued products like biofuels using green and sustainable,"USCS&T, Dehradun",Prof. Anuj Sharma UST-1664-CMD
+152,Unprecedented Bifunctional Strategies for Harnessing CO2 for Enantioselective organic transformations : Application towards the synthesis of Antidepressant Drugs Rolipram and Paroxetine,"SERB, New Delhi",Prof. Debasis Banerjee SER-1744-CMD
+153,Design and synthesis of advanced energetic materials using metal catalyzed cross- coupling,"SERB, New Delhi",Prof. Dheeraj Kumar SER-1749-CMD
+154,Harnessing dienaminal and dienaminone intermediates for the synthesis of nitrogenous and other frame works,"SERB, New Delhi",Prof. R.K. Peddinti SER-1751-CMD
+155,Metal-free boron-based catalysts for direct conversion of alkanes of aldehydes and alkanes of aldehydes and alkenes : role of catalyst at the electronic level in product selectivity,"SERB, New Delhi",Prof. Puneet Gupta SER-1753-CMD
+156,INSPIRE Faculty Fellowship,"DST, New Delhi",Dr. YadagiriDongari DST-1788-CMD
+157,Functional gold Nanoclusters and AU(I) complexes for therapeutic applications,"CSIR, New Delhi",Prof. V. Venkatesh CSR-1810-CMD
+158,Synthesis of MESO/B-Functionalized Porphyrins for solar cell and catalytic applications,"CSIR, New Delhi",Prof. M.Sankar CSR-1814-CMD
+159,Enantio-and diastereo selective cascade synthesis of poly-heterocyclic chiral compounds,"SERB, New Delhi",Prof. Gnanamani Elumalai SER-1817-CMD
+160,Spatiotemporal control over aridwar between artificial micro-compartments with a reversible coatcervate glue,"Indo-French Centre for the Promotion of Advanced Research (IFCPAR), New Delhi",Prof. Pavan Bosukonda CEF-1822-CMD
+161,Novel synthesis and application of metallocarbenes derived from crabonyl compounds,"SERB, New DELHI",Prof. Yadagiri Dongari SER-1997-CMD
+162,High entropy solid electrolyte for next generation battery technology with high energy and power density,"SERB, New DELHI",Prof. Swastika Banerjee SER-2000-CMD
+163,visible light driven synthesis of fused o-heterocycles via radical cross coupling methodologies,"SERB, New DELHI",Prof. Anuj Sharma SER-2001-CMD
+164,Organic emitters with heterocyclic acceptors for thermally activated delayed fluorescence and room temperature phosphorescence applications,"SERB, New DELHI",Prof. K.R. Justin Thomas SER-2002-CMD
+165,INSPIRE Faculty Fellowship,"DST, New Delhi",Prof. Sayanti Chatterjee DST-2042-CMD
+166,National Initiative for Design Innovation,"MHRD, New Delhi",Dr. A.K. Sharma MHR-1247-DIC
+167,Visvesvaraya PhD Scheme for Electronics and IT.,"Media Lab Asia, Mumbai",Dr. Durga Toshniwal MIT-1100-CSE
+168,Award of Young Faculty Research Fellowship,"Media Lab Asia, Mumbai",Dr. Sandeep Kumar MIT-1242-CSE
+169,INSPIRE Faculty award Programe,"DST, New Delhi",Dr. Pradumn Kumar Pandey DST-1401-CSE
+170,"Design and development of quantum computing toolkit (simulator, workbench) and capacity building","MIETY, New Delhi",Dr. SugataGangopadhyay MIT-1511-CSE
+171,Software defined controlled and dynamic traffic load balanced scheduling framework for IoT enabled intelligent transportation system(ITS),"SERB, New Delhi",Prof. Neetesh Kumar SER-1572-CSE
+172,The research project Sow Towards intelligent data placement using AI&ML,"Huawei Technologies India Private Limited, Bengaluru",Prof. Durga Toshniwal HIT-1652-CSE
+173,Automated cognitive metrics classification framework to improve human machine collaboration LSRB-376,"DRDO, New Delhi",Prof. ParthaPratim Roy DRD-1659-CSE
+174,Development of early breast cancer detection system with microwave imaging technique,"DST, New Delhi",Prof. Dharmendra Singh DST-1674-CSE
+175,Iot based automated real time and effective traffic signal scheduling for smart city,"DST, New Delhi",Prof. NeeteshKumar DST-1690-CSE
+176,Design and development of a software tool for digitalization and investigation of microstructure of materials using computer vision and machine learning,"SERB, New Delhi",Prof. Sandeep Kumar SER-1816-CSE
+177,Methods to test and rate AI services for trust with an aridw Perspective,"SERB, New Delhi",Prof. Sandeep Kumar SER-1853-CSE
+178,Multilingual Recognition & Interpreatation,Ministry of Electronics & Information Technology,Prof. Partha Pratim Roy MIT-1870-CSE
+179,Intel One API research Proposal,Intel Corporation United States,Prof. Durga Toshniwal ITC-1889-CSE
+180,Landslide monitoring forecasting and mitigation system,"ISRO, Bengaluru",Prof. R. Balasubramanian STC-1938-CSE
+181,Smart device services diagnostic capabilities,"HP, Inc United States",Prof. Partha Pratim Roy HPI-1963-CSE
+182,Dynamic Graph Algorithms for Pangenomics,"SERB, New Delhi",Prof. Shahbaz Khan SER-1975-CSE
+183,NBHM Post Doctoral Fellowship,"DAE, Mumbai",Prof. Saugata Gangopadhyay (MENTOR) DAE-1985-CSE
+184,SERB-TARE (Teachers Associateship for reserch excellence),"SERB, New DELHI",Dr. Manikandan V M SER-1991-CSE
+185,emergency aware intelligent dynamic traffic signal system for smart cities,"CSIR, NEW DELHI",Prof. Neetesh Kumar CSR-2010-CSE
+186,Varietal classification of seeds using deep learning and INR Hyperspectral Imaging Technique,"SERB, New Delhi",Prof. R. Balasubramanian SER-2029-CSE
+187,INSPIRE Faculty award Programe,"DST, New Delhi",Dr.KirtirajKundlik Gaikwad DST-1398-DPT
+188,Metaheuristias Framework for Multi-objective Combinatorial optimization Problems (META-MoCop),"DST, New Delhi",Prof. Millie Pant DST-1628-DPT
+189,Turning waste to wealth : Development of biodegradable packaging material from agriculture waste via green route for sustainable environment,"SERB, New Delhi",Pof. KirtirajK.Gaikwad SER-1778-DPT
+190,Physico-chemical and biological characterization of novel materials for renewable and sustainable applications,"Bharat Energy Storage Technology, Hyderabad",Dr. K.M Poluri BST-1276-CTS
+191,Optimizing electric bus routes for smart cities,"SERB, New Delhi",Prof. Hemant kumar Suman SER-1987-CTS
+192,"Wazirabad blue-green infrastructure an innovative environmental network for urban risk reduction in gurugram, NCR","DST, New Delhi",Prof. Mahua Mukherjee DST-1555-DMC
+193,INSPIRE FACULTY AWARD,"DST, New Delhi",Dr. Piyush Srivastava DST-1636-DMC
+194,Development of a prototype territorial early warning system for precipitation induced sediment disasters (I.e. landslides and debris flows) in India,"IIRS, Dehradun",Prof. srikrishnan Siva Subramanian IIR-1902-DMC
+195,Monitoring and modelling of hydro-glaciological processes in glaciated and non-glaciated watershed of north-west himalaya,"IIRS, Dehradun",Prof. Sumit Sen IIR-921-DMC
+196,Monitoring and assessment of Mountain ecosystem and services in north-west himalaya (Phase-II) : Monitoring and modelling of hydro-glaciological processes in glaciated and non-glaciated watershed of north-west himalaya,"IIRS, Dehradun",Prof. Ajanta Goswami IIR-1922-DMC
+197,Longitdinal survey for natural hazards,"Scientific coordinator of co-prepare, institute of environmental science and geography university of potsdam",Prof. Roopam Shukla LEN-1999-DMC
+198,Avalanche hazard zoning and forecasting of snow avalanche using the machine and deep learning approaches,"Indian Institute of Remote sensing (IIRS), Dehradun",Prof. Ajanta Goswami IIR-1872-DMC
+199,Design and development of co ffee harvesting machine,Central Coffee Research Institute,Prof. Bibhuti Ranjan Bhattaharjya CCR-2041-DIC
+200,Scheme of financial assistance for Setting up of Electronics and ICT Academics,"MEITY, New Delhi",Dr. Sanjeev Manhas MIT-896-ECD
+201,MSR funding for outstanding Young Faculty Award Programme,"Microsoft Research Lab India Pvt. Ltd., Bangalore","Head, ECD MSR-906-ECD"
+202,DIC Ph.D Fellowship,"MHRD, New Delhi",Dr. Sanjeev Manas DIC-1265-ECD
+203,Young Faculty Research Fellowship,"Digital India Corporation, Mumbai",Dr. Meenakshi Rawat DIC-1370-ECD
+204,INSPIRE Faculty award Programe,"DST, New Delhi",Dr. Debidas Kundu DST-1395-ECD
+205,INSPIRE Faculty Award,"DST, New Delhi",Dr. Vishvendra Singh Poonia DST-1452-ECD
+206,Radiation Hardened Memory and Logic Design using Hybrid Spintronic-CMOS Devices,"SERB, New Delhi",Dr. B.K. Kaushik SER-1488-ECD
+207,Design and development of IoT based smart home automation system,"SIKONIC Holdings Co. Ltd., Japan",Prof. P.M. Pradhan SIK-1533-ECD
+208,A design methodology for compute in memory SRAM marco for AI/ML applications in edge devices,"Semiconductor research corporation (SRC), United State",Prof. S. Dasgupta SRC-1546-ECD
+209,Development of denoising and feature extraction algorithms for spatio-temporal event identification,"Logintech solutions private limited, Hyderabad",Prof. Pyari Mohan Pradhan LTS-1552-ECD
+210,Design and fabrication of MEMs structure for MEMs structure for vibration sensing and energy harvesting,"ISRO, Bengaluru",Prof. Sanjeev Manhas STC-1558-ECD
+211,A PSDOI (Partially Depleted silicon-on-Insulator) Analog cell library consisting 2 stage OPAMPs and comparators designed considering floating body (FB) and self heating (SH) effects,"ISRO, Bengaluru",Prof. Anand Bulusu STC-1559-ECD
+212,Development of 1.8/5v/10v/20v I/0 Pads in SCL’S 0.18µm CMOS process.,"ISRO, Bengaluru",Prof. S. Dasgupta STC-1568-ECD
+213,RF-System-on-chip Solutions of Tri-band for the IRNSS using CMOS/BiCOMS Process,ISRO. Bengaluru,Prof. Darshak Bhatt STC-1569-ECD
+214,Affordable sub-millimeter/THz components using 3D printed dielectric integrated guides,"ISRO, Bengaluru",Prof. Nagendra Prasad Pathak STC-1570-ECD
+215,Smart Contactless technology development for smart fencing,"DST, New Delhi",Prof. Anand Bulusu DST-1633-ECD
+216,Design and Development of MIMO based microwave Imaging system for target detection and identification behind the wall,"MEITY, New Delhi",Prof. Dharmendra Singh MIT-1643-ECD
+217,Creating a centre of excellence for drone research,"1994 Batch Donation Corpus  Dean Finance & Planning, IITR",Prof. Dharmendra Singh DFP-1641-CDR
+218,Field versus temperature : on exploration of the switching behavior of gapless atomic switch to realize a color sensor,"SERB, New Delhi",Prof. Arnab Datta SER-1676-ECD
+219,Hardware Implementation of Artificial Intelligence based object and motion detection,"DRDO, Dehradun",Prof. Brajesh Kumar Kaushik DRD-1695-ECD
+220,"Characterization of memory and mobility, study of new channel materials","Applied Materials, USA",Prof. Sanjeev Manhas AMA-1715-ECD
+221,“Modeling Research for BSIM Models,"University of California, (Berkeley)",Prof. Avirup Dasgupta UCB-1720-ECD
+222,5G Communication Lab setup,"Jio Platform Limited, Ahmedabad",Prof. Meenakshi Rawat JPL-1721-ECD
+223,Development of Auto-change Detection system for Gas pipeline ROU surveillance using satellite Images,"GAIL (India) Limited , Noida",Prof. Dharmendra Singh GAL-1745-ECD
+224,Variability aware compact modeling nanosheet FETs,"SERB, New Delhi",Prof.Avirup Dasgupta SER-1760-ECD
+225,Development and optimization of magnetic field tolerant spintronic devices targeted toward mobile and IoT Applications,"SERB, New Delhi",Prof. Tanmoy Pramanik SER-1781-ECD
+226,Realizing cell- free massive MIMO for beyond 5G systems,"SERB, New Delhi",Prof. Abhay Kumar Sah SER-1794-ECD
+227,Deep learning – based linguistic summarization of clustering results for enhanced understanding of novel datasets,"SERB, New Delhi",Prof. Dheeraj Kumar SER-1796-ECD
+228,Development of a biomimetic quantum photovoltaic cell,"SERB, New Delhi",Prof. Vishvendra Singh Poonia SER-1808-ECD
+229,On-Chip implementation and energy -efficient processing of ECG signals for Early detection of cardiovascular Diseases,"SERB, New Delhi",Prof. Bishnu Prasad Das SER-1809-ECD
+230,Signal Processing based solutions for antenna positioning system,"Wellmatrix Co. Ltd. Changown, South Korea",Prof. Pyari Mohan Pradhan WMC-1873-ECD
+231,Qualcomm Innovation Fellowship,Qualcomm Innovation Fellowship (India),Prof. Sourajeet Roy QIF-1878-ECD
+232,3GPP Complaint PUCCH design for 5G-NR User,"M/s Spanidea Systems Pvt. Ltd Bengaluru, Karnataka",Prof. Ekant Sharma SPI-1868-ECD
+233,Development of State-of the art novel algorithm for mapping and monitoring the flooded regions and partially submerged vegetation using multi temporal multi-frequency & multi polarization SAR data,"Indian Institute of Remote Sensing (IIRS), Dehradun",Prof. Dharmendra Singh IIR-1886-ECD
+234,Development of Software for Authentication of Audio-Video Footage,"Directorate of Forensic Science Services, Ministry of Home Affairs",Prof. Vinod Pankajakshan MHA-1894-ECD
+235,Development of Satellite interferometry based landslide early warning (Sin LEW) system,"Indian Institute of remote sensing (IIRS), Dehradun",Prof. Rajib Kumar Panigrahi IIR-1903-ECD
+236,Investigation of mobility and contacts in 2D/few layers materials,Applied Materials Inc. (USA),Prof. Sanjeev Manhas AMA-1905-ECD
+237,5G Advanced ORAN Massive NIMO Base Station,"IIITB COMET Foundation, Bengaluru",Prof. Ekant Sharma ITB-1907-ECD
+238,Indigenization of Digitally tunable microstrip band pass filter for reconfigurable 5G Communication System,"SERB, New Delhi",Prof. Gowrish B. SER-1948-ECD
+239,RJS Assisted cell-free NOMA system for 5G and beyond communication,"SERB, New Delhi",Prof. Ekant Sharma SER-1960-ECD
+240,Machine learning based drowsiness detection for semi-automated driving applications in health 4.0 and industry 4.0,"SERB, New Delhi",Prof. Tharun Kumar Reddy SER-1968-ECD
+241,Design of Analog-to-digital converters with a band pass frequency response for wireless applications,"SERB, New Delhi",Prof. Saravana kumar M SER-1971-ECD
+242,Design and development of new prototype for RIS-aided communication,"IIITB COMET Foundation, Bengaluru",Prof. Ekant Sharma ITB-1983-ECD
+243,research partnership agreement between WIPRO Ltd. And IIT Roorkee,"WIPRO Limited, Banglore",Prof. Kamal Rawat WPL-1998-ECD
+244,Dual-frequency and polarimetric SAR observations of lumar polar region for water ice and surface roughness characterization/ Estimation,"ISRO, Bengaluru",Prof. Dharmendra Singh ISR-2032-ECD
+245,an efficient use of e-waste and EM techniques for development of broad band radar wave absorbing materials,"SERB, New Delhi",Prof. Dharmendra Singh SER-2045-ECD
+246,secure framework for IOT devices using physical unclonable functions on FPGAs,Data Security Council of India (UP),Prof. Bishnu Das DSC-2051-ECD
+247,US-India Collaborative for Smart Distribution System with (UI-ASSIST),"IUSSTF, New Delhi",Dr. N.P. Padhy IUS-1132-EED
+248,Virtual Labs Phase-III,"MHRD, New Delhi",Dr. R.S. Anand MHR-1221-EED
+249,Demonstration of MW Scale Solar Energy Integration in weak grid using Distributed Energy Storage Architecture(D-SIDES),"DST, New Delhi",Dr. N.P. Padhy DST-1237-EED
+250,Indo-Danish collaboration for data-driven control and optimization for a highly Efficient Distribution Grid (ID-EDGe),"DST, New Delhi",Dr. N.P Padhy DST-1390-EED
+251,Development of power SiC Based Solid state distribution transformer for smart Grid,"SERB, New Delhi",Dr. M.K. Pathak IMP-1498-EED
+252,Different energy vector integration for storage of energy (DEVISE),"DST, New Delhi",Prof. Vishal Kumar DST-1608-EED
+253,Development of indigenous simulation model for design validation of power supply of high-speed railways,"National high speed rail corporation Limited, Delhi",Prof. Biswarup Das NRC-1642-EED
+254,Parameter and topology estimation of distribution network,"SERB, New Delhi",Prof. Dheeraj k. Khatod SER-1667-EED
+255,Analysis of stability and protection aspects of integrated solar energy and bioenergy system into a power system,"DST, New Delhi",Prof. ManojTripathy DST-1681-EED
+256,Mobile substation and grid storage system (MOBISUB),"DST, New Delhi",Prof. Avik Bhattacharya DST-1687-EED
+257,Development of Hydrogen Fuel Cell based hybrid power Train for Railway Vehicles,"DST, New Delhi",Prof. Bhavesh Kumar Bhalja DST-1733-EED
+258,Development of active or passive leg exoskeleton based on series elastic actuation for assistance of elderly humans,"IHF Foundation for Cobotics (IHFC), Hauz Khas, Delhi",Prof. Felix Orlando Maria Joseph IHF-1746-EED
+259,Mitigation of cyber attacks in power system using non-linear control system design,"IHUB NTIHAC Foundation, IIT Kanpur",Yogesh Vijay Hote INF-1748-EED
+260,Development of grid forming controls for doubly fed induction machine based wind turbines (TYPE III Wind turbines),"SERB ,New Delhi",Prof. JishnuKavilKambrath SER-1761-EED
+261,Design and development of high-power-density motor drives meant for high-speed applications,"SERB, New Delhi",Prof. Avinash Tripathi SER-1768-EED
+262,Privacy Pricing in power systems under obfuscation,"SERB, New Delhi",Prof. Deep Kiran SER-1773-EED
+263,Distributed sampled data control of autonomous multi vehicle systems,"SERB, New Delhi",Prof. Abhishek Kumar Behera SER-1785-EED
+264,Impact Analysis and mitigation of cyber attacks on Microgrid SCADA,"CPRI, Banglore",Prof. ManojTripathy CPR-1797-EED
+265,"Mission Innovation 2.0 – Green Powered Future Mission – Resources Unit for scientific & Technical Analysis, Management, and Coordination","DST, New Delhi",Prof. N.P.Padhy DST-1800-EED
+266,Development of novel protection schemes for zonal DC Microgrid,"SERB, New Delhi",Prof. Premlata Jena SER-1801-EED
+267,SERB-POWER Fellowship,"SERB, New Delhi",Prof. Premlata Jena SER-1851-EED
+268,Development and validation of security solutions against various cyber attacks at substation transmission level for indian power grid network,"Central Power Research Institute, Banglore",Prof. Bhavesh kumar Bhalja CPR-1875-EED
+269,Switching based PID control approach for automatic generation control (AGC) of power system with integration of Renewable Energy (RE) Sources,"CPRI, Banglore",Prof. Yogesh Vijay Hote CPR-1881-EED
+270,"AI Enabled Algorithms for object detection, recognition & classification in thermal Imaging","DRDO, Dehradun",Prof. P. Sumathi DRD-1895-EED
+271,Impedance calculation and load flow analysis in railway traction system,"Research Designs & Standards Organization (RDSO), Lucknow",Prof. Ganesh Balu Kumbhar RDS-1944-EED
+272,Multiphase Inductive power transfer system for contactless fast charging of electric vehicles,"SERB, New Delhi",Prof. Apurv kumar Yadav SER-1967-EED
+273,SERB-N-PDF,"SERB, New DELHI",Dr. Ekta Purwar SER-1994-EED
+274,smart power sharing between solar PV-Bess energised AC micro-grid and utility mains,Ministry of Electronics & Information Technology,Prof. Sumit Ghatak Choudhuri MIT-1995-EED
+275,Investigation of orthogonal regularized deepneural networks for classification tasks,"SERB, New Delhi",Prof. Jeevanand S. SER-2012-EED
+276,Development of resilient and trust-based cooperative control schemes for multi-lane heterogeneous vehicle platooning mixed traffic scenarios,"SERB, New Delhi",Prof. Arnab Dey SER-2031-EED
+277,Fault detection and localization in hybrid AC/DC mircogrid,"DST, New Delhi","Prof. Bhalja Bhaveshkumar R, DST-2044-EED"
+278,Seismological Network around Tehri Region,"THDC, Rishikesh",Dr. M.L. Sharma THD-203-EQD
+279,Operation and Maintenance of Seismological Network Around Tehri Region Operation of Strong Motion Accelerographs,"THDC, Rishikesh",Dr. M.L. Sharma THD-876-EQD
+280,"Setting up of space technology cell (stc) at aridw institute of technology , Roorkee","ISRO, Bengaluru",Prof. Manish Shrikhande ISR-1557-STC
+281,Sliding Mass floor system for seismic response control,"MoES, New Delhi",Prof. Manish Shrikhande MES-1701-EQD
+282,Seismic safety of low & high rise buildings by using low-cost energy dissipating devices,"PHF Housing Finance LTD., New Delhi",Prof. Pankaj Agarwal PHF-1710-EQD
+283,Testing of connection components,"Fischer Building Materials India Pvt.Ltd., Banglore",Prof. Saurabh Shiradhonkar FBM-1742-EQD
+284,Sub Assemblage testing and study of seismic Brakes,"KLA, New Delhi",Prof. P.C. Ashwin Kumar KLA-1747-EQD
+285,Seismic safety measures for RC Frame buildings with different types of infill panels,"NBCC (India) Limited , New Delhi",Prof. Yogendra Singh NBC-1183-EQD
+286,Prefabricated prefinished volumetric construction using recycled plastic in connection with the prefabricated prefinished volumetric construction using recycled plastic technology of anant national university,"Ministry of housing and urban affairs, new delhi",Prof. P.C. Ashwin KUMAR ASH-1884-EQD
+287,Prefabricated Prefinished Volumetric construction using recycled plastic in connection with the prefabricated prefinished volumetric construction using recycled plastic technology of anant national university,"Ministry of Housing and Urban Affairs, New Delhi",Prof. P.C. Ashwin Kumar ASH-1884-EQD
+288,Pre cast reinforced concrete Planks in connection with the precast panel technology of M.Suresh Chawla,"Ministry of Housing and Urban Affairs, New Delhi",Prof. Saurabh Shiradhonkar ASH-1896-EQD
+289,Corrosion test materials characterization of stainless steel,"SM Indian Welds Consultancy Pvt. Ltd., New Delhi",Prof. P.C. Ashwin Kumar SIW-1951-EQD
+290,Micro-mechanics based fracture model for welded connection for avoiding brittle failure in steel member connections,"SERB, New Delhi",Prof. P.C. Ashwin Kumar SER-2036-EQD
+291,Effect of torsional ground mation on code complaint buildings in seismic risk frame work,"SERB, New Delhi",Prof. Saurabh Shiradhonkar SER-2037-EQD
+292,"Sequence stratigraphy of Bagh Group of rocks, Narmada rift Valley, Central India : its bearing on the Late Cretaceous paleogeography","MoES, New Delhi",Dr. B. Bhattacharyay MES-1392-ESD
+293,A HPC software suite for seismic imoying to aid oil and gas exploration,"CDAC, Pune",Dr. Anand Joshi DAC – 1428-ESD
+294,Estimation of actual evaporation from running water using stable water isotopes(d18O and ?d),"SERB, New Delhi",Dr. A.S. Maurya SER-1512-ESD
+295,"Potential uranium mineralization in pernian barren measures formation, west bokaro Gondwana basin, eastern India.","DAE-BRNS, New Delhi",Prof. Biplab Bhattacharya DAE-1592-ESD
+296,Mineral Exploration,"SAC-ISRO, Ahemdabad",Prof. Ajanta Goswami ISR-1605-ESD
+297,Geological geophysical investigation and design and development of cyber- physical-system for early detection of landslide,"DST, New Delhi",Prof. Sarada Prasad Pradhan DST-1617-ESD
+298,"Mercury : Constraints on the thermochemical evolution and internal differentiation from aridwar, experiments and geochemical modelling","SERB, New Delhi",Prof. Nachiketa Rai SER-1645-ESD
+299,Optimal Route Alignment in Sikkim Area,"DRDO, Chandigarh",Prof. PitambarPati DRD-1682-ESD
+300,"Fault-core damage zone architecture in the great boundary fault, rajasthan , India","CSIR, New Delhi",Prof. D.C.Srivastava CSR-1688-ESD
+301,Tectonic Evolution of the High-Grade Terrains around the archaean Banded gneissic complex in southern rajasthan and their relations to aridwarc super continent cycles: A petrochronological study,"CSIR, New Delhi",Prof. LopamudraSaha CSR-1704-ESD
+302,Estimates of Paleostress stress states from heterogeneous fault,"MoES, New Delhi",Prof. D.C.Srivastava MES-1707-ESD
+303,Evolution of fabric in isotrophicmedium : A case study of breach granitoid and its implication for terrane accretion,"SERB, New Delhi",Prof. Sandeep Bhatt SER-1758-ESD
+304,Late Quaternary Peleoceanography of the northern Indian Ocean and its impact on global climate modulation,"SERB, New Delhi",Prof. Dharmendra Pratap Singh SER-1771-ESD
+305,Seismic imaging of the central aridwar using spectral- element methodology,"SERB, New Delhi",Prof. Vipul Silwal SER-1780-ESD
+306,SERB-NPDF,"SERB, New Delhi",Dr. Debajit Datta SER-1782-ESD
+307,"Fluid inclusions and hydrothermal alteration studies of mineralized zones in paramanahalli gold prospect, chitradurga greenstone belt, karnataka","SERB, New Delhi",Prof. Rajagopal Krishnamurthi SER-1784-ESD
+308,Paleocene - oligocene seawater temperature variability Implications for future climate change,"SERB, New Delhi",Prof. Dharmendra Pratap Singh SER-1946-ESD
+309,Nature of Proterozoic gold reserviors : Evidence from the lawa gold deposit north singh bhum mobile beet eastern india,"SERB, New Delhi",Prof. Rajarshi Chakravarti SER-1953-ESD
+310,A high - resolution study of Indian monsoon variability and its teleconnections during the holocene,"SERB, New Delhi",Prof. Champoungam Panmei SER-1957-ESD
+311,Earthquake warning system (EEWS) using deep learning approaches,"Ministry of Earth Sciences, New Delhi",Prof. Anand Joshi MOE-1977-ESD
+312,Image based feature extraction using AI & Ml for quantification fo complex subsurface pore scale structures to assess the impact of CO2 + H2 storage,"Kaunas University of Technology, Lithuania",Prof. Ravi Sharma KUT-1980-ESD
+313,Tectono- climatic influence on the growth of terminal fans in the ganga plain,"SERB, New Delhi",Prof. Pitambar Pati SER-2047-ESD
+314,Assessing the exchange between groundwater and surface water to understand the major factors controlling the long term quality and quantity of water reserves in the indian himalayan watershed with special attention to the dehradun region,"SERB, New Delhi",Prof. Pallavi Chattopadhyay SER-2049-ESD
+315,Central Sector Scheme for Massive Online Open Courses (MOOCs) Compliant e-content creation – regarding (NPTEL Phase IV),"MHRD, New Delhi","Dr. B.K. Gandhi, Coordinator, E.T. Cell MHR-937-ETC"
+316,Interlinkage of ecosystem services and human wellbeing to enhance climate smart landscapes in small watersheds : analysis for policy-relevant solutions in south Asian context,Prof. Subir Sen,Prof. Subir Sen APN-1494-HSD
+317,"Comparative Impact Assessment of COVID 19 on livelihoods, employment challenges and opportunities : a case study of selected aridw and south aridwa‘Gig’ economy industries","ICSSR, New Delhi",Prof. Pratap Chandra Mohanty ICS-1735-HSD
+318,Performance benchmarking of school education systems in BIMARU status of India,"ICSSR, New Delhi",Prof. Rachita Gulati ICS-1880-HSD
+319,Assessment of ecological damage and NPV of future ecosystem services foregone an account of illegal mining sites in subarnarekha river odhisha and west bengal,"Institute of Forest Biodiversity, Indian Council of Forestry Research & Education",Prof. Dipti mayee Nayak IFB-1897-HSD
+320,Participatory action research in select micro watersheds in uttarakhand,Institute funded sponsored research Project,Prof. S.P. Singh ITR-1926-HSD
+321,Motivational and cognitive determinants of self regulated learning in vocation-focused online course : A case study of Newton School,"Newton School Incanus technologies pvt. Ltd., Banglore",Prof. Ram Manohar Singh NSI-2027-HSD
+322,Real time discharge estimation using non-contact hydrometrics measurements,"MoES, New Delhi",Dr. Manoj Kumar Jain MES-1407-HYD
+323,Hydro-Geological Assessment and socio-Economic implications of Depleting water resouces in tourist towns of uttarakhand,"Ministry of Jal Shakti, New Delhi",Dr. Sumit Sen MJS-1487-HYD
+324,An efficient aquifer storage method for enhanced recovery of recharged freshwater in saline regions,"DST, New Delhi",Prof. Brijesh Kumar Yadav DST-1574-HYD
+325,Theory of change observatory on disaster resilience,"USP, Brazil",Prof. N.K. Goel USP-1575-HYD
+326,Comparing the disparate impacts of oak and chir pine tree spices on their local hydrological and hydroclimatic regimes in the west-central Himalays,"NISER, Bhubaneshwar",Prof. Sumit Sen STR-1598-HYD
+327,Co-Prepare : collaborative Indo-German project on estimating and predicting natural hazards in the aridwar region,"University Grants Commission, New Delhi",Prof. Ankit Agarwal UGC-1670-HYD
+328,Spring Rejuvenation study in Mizoram : A pilot study for the selected villages of the mengpui Basin”,"Under National Hydrology Project , Government of Mizoram",Prof. Sumit Sen NHP-1673-HYD
+329,Sediment study and management of soil erosion in the mat driver catchment,"Under National Hydrology Project, Government of Mizoram",Prof. Brijesh Kumar Yadav NHP-1678-HYD
+330,Development and Implementation of Science-based Springshed Management in the Indian Himalayan Region,"International Centre for Integrated Mountain Development, Nepal",Prof. Sumit Sen IMD-1719-HYD
+331,Dynamics of glaciers degradation due to climate change and its impacts on river flow in the mountain system of uzbekistan,"DST, New Delhi",Prof. ManojKumar Jain DST-1752-HYD
+332,CocreatingsustainbaleArgiwater use in the Hindon Sub basin – A multi Scale Participatory approach,"DST, New Delhi",Prof. Brijesh Kumar Yadav DST-1813-HYD
+333,Enhanced treatment of tannery wastewater by membrane and capacitive deionization (CDI) with waste minimization in Haridwar region,"DST, New Delhi",Dr.Pinki Sharma (Women Scientist – A) DST-1854-HYD
+334,Anomalous Moisture Transport for Hydrological extremes in a Changing Climate AMOTHEC,"DST, New Delhi (Indo - Portugal)",Prof. Ankit Agarwal DST-1917-HYD
+335,Advanced Nanocomposite Polymeric membranes for conversion of wastewater into potable water and revitalization of air in space,"ISRO, Bengaluru",Prof. Bhaskar Jyoti Deka STC-1941-HYD
+336,Hydrological studies of ganga flood plain (Hydro Flood),"IRD, Thailand",Prof. Ankit Agarwal IRD-1945-HYD
+337,Regional cooperation for freshwater ecosystem services in himalayas (REFRESH) : understanding the influences of monsoon variability and compound extremes,"Asia Pacific Network (APN), Tokyo, Japan",Prof. Ashutosh Sharma APN-1959-HYD
+338,Development of omniphobic nanofibrous membrane for hybrid absorbent-membrane distillation technology to achieve nearly zero liquid discharge and resources recovery from seawater brine waste,"SERB, New Delhi",Prof. Bhaskar Jyoti Deka SER-1966-HYD
+339,Probabilistic floods and sediment transport forecasting in the himalayas during the extreme events,"DST, New Delhi",Prof. Sumit Sen
+340,Protecting human health through a one health approach,"International water management institute, Sri lanka",Prof. Himanshu Joshi IWM-2035-HYD
+341,International Centre of excellence for dams (ICOED),"Central water commission, Department of water resources, River development & Ministry Jal Shakti, Government of India",Prof. N.K. Goel ICD-2043-MJS
+342,"Facilitating Upgrade and Operational of Existing High End Computing and Web Application Infrastructure in Place at ICC, IIT Roorkee for Academic and Research Community",IIT Roorkee,"Head, ICC ITR-1166-ICC"
+343,Fabrication of high energy density thin film based on chip supercapacitor devices using reactive magnetron sputtering technique,"DST, New Delhi",Dr. Ramesh Chandra DST-1437-IIC
+344,INSPIRE Faculty Award,"DST, New Delhi",Dr. Manil.T.Mohan DST-1263-MTD
+345,Development of advanced computational algorithms for evaluating post-surgery rehabilitation,"DST, New Delhi",Prof. Sanjeev Kumar DST-1577-MTD
+346,Transition characteristics of isothermal and non-isothermal poiseuille flow in a fluid overlying a porous medium,"SERB, New Delhi",Prof. PremanandBera SER-1595-MTD
+347,Analysis of an efficient and fast numerical method for poroelasticity with uncertain inputs,"SERB, New Delhi",Prof. Arbaz Khan SER-1621-MTD
+348,Development of encryption and secret sharing schemes for quantum Images,"SERB, New Delhi",Prof. Sanjeev Singh SER-1623-MTD
+349,Implementation of multi-fluid population balance method for the nonlinear coupled Maxwellian averaged transport equations,"SERB, New Delhi",Prof. Ameeya Kumar Nayak SER-1627-MTD
+350,Construction and analysis of Locally Recoverable Codes,"SERB, New Delhi",Prof. Maheshanand SER-1630-MTD
+351,Non-Linear stability theory of non-isothermal parallel flow in a vertical annulus filled with high permeable porous medium,"SERB, New Delhi",Prof. PremandaBera SER-1631-MTD
+352,"Lie symmetry analysis, simulation and lyapunov stability analysis of the hyperbolic systems","DST, New Delhi",Prof. Ram Jiwari DST-1657-MTD
+353,various coloring parameters of distance graphs and motzkin's maximal density of sets,"CSIR, New Delhi",Prof. Ram Krishan Pandey CSR-1696-MTD
+354,Theoretical analysis and simulation to capture complex patterns of nonlinear reaction-diffusion models,"DAE, Mumbai",Prof. Ram Jiwari DAE-1698-MTD
+355,Computational aspects in biothogonal rational function related to infinite gap jacobi matrices logarithmic capacity and their asymptotics,"DAE, Mumbai",Prof. A.Swaminathan DAE-1699-MTD
+356,Inverse problems associated with certain sunsets in additive number theory,"DAE, Mumbai",Prof. Ram Krishna Pandey DAE-1706-MTD
+357,Collision-induced fragmentation and coagulation : dynamics and numerics,Indo-French Centre for Applied Mathematics (IFCAM),Prof. Ankik Kumar Giri IFC-1727-MTD
+358,Minimizing the side effects of various vaccines for Ncovid-19 using advanced Data Analytics and Nature Inspired Optimization Techniques,"DST, New Delhi",Prof. Kusum Deep DST-1729-MTD
+359,On certain multiplicity one results,"SERB, New Delhi",Prof. MahendraKumar Verma SER-1818-MTD
+360,BCL Representation for ISOMETRIES AND INVARIANT SUBSPACES,"SERB, New Delhi",Prof. Amit Maji SER-1821-MTD
+361,Stochastic analysis of the convective Brinkman Forchheimer equations perturbed by levy noise,"SERB, New Delhi",Prof. Manil T. Mohan SER-1827-MTD
+362,Fast and Robust numerical algorithms for 2D unsteady state convection Dominated singularly perturbed parabolic models : Theoretical analysis and computational modeling,"SERB, New Delhi",Prof. Ramjiwari SER-1833-MTD
+363,Optimal Control of doubly diffusive flows : theoretical sudies and numerical analysis,"SERB, New Delhi",Prof. Arbaz Khan SER-1840-MTD
+364,A study of convergence Properties of the corrected fourier series and its applications,"SERB, New Delhi",Prof. Uaday Singh SER-1842-MTD
+365,A study of Semilinear differential equations with non-densely defined operators,"SERB ,New Delhi",Prof. DwijendraNarain Pandey SER-1845-MTD
+366,Qualitative analysis of differential equations and inclussions with general nonlocal conditiions,"SERB ,New Delhi",Prof. DwijendraNarain Pandey SER-1846-MTD
+367,Development of lattice-based encryption and digital signature algorithms for quantum - safe cryptography,"DRDO, Bengaluru",Prof. Aditi Gangopadhyay DRD-1865-MTD
+368,An Application of Artificial Intelligence in Elementry Mathematics Education,MyLq Pvt. Ltd. (Chevayur Kozhikode),Prof. S.K. Gupta MLP-1893-MTD
+369,NBHM Post Doctoral Fellowship,"DAE, Mumbai",Dr. Lateef Ahmad Wani (NBHM-PDF) DAE-1914-MTD
+370,Stability analysis of two phase multicomponent convective flow in fluid - porous layer and its fully discrete finite element approximation,"Department of Atomic Energy, Mumbai",Prof. Ameeya Kumar Nayak DAE-1930-MTD
+371,INSPIRE Faculty Fellowship,"DST, New Delhi Transfer from IISER, Mohali to I.I.T. Roorkee",Prof. Sugandha Maheshwary DST-1932-MTD
+372,the discrete coagulations equations with collisional breakage,"SERB, New Delhi",Prof. Ankik kumar Giri SER-2006-MTD
+373,Construction of entanglement assisted quantum error-correcting codes from linear codes,"SERB, New Delhi",Prof. Maheshanand SER-2007-MTD
+374,Epidemiology of leptospirosis in india - a study based on mathematical modelling,"SERB, New Delhi",Prof. Sandip Banerjee SER-2009-MTD
+375,Fast & Computationally efficient interative regularization methods for solving inverse problems,"SERB, New Delhi",Prof. Ankik kumar Giri SER-2024-MTD
+376,Financial Plan Max-Planck Seat Legal Status and Financial Year,"Max Planck India Partner Group, Germany",Dr. Sai RamuduMeka MPG-1072-MMD
+377,INSPIRE Faculty award,"DST, New Delhi",Dr. Anish Karmakar DST-1361-MMD
+378,INSPIRE Faculty Award,"DST, New Delhi",Dr. V.A. Baheti DST-1501-MMD
+379,Hot deformation simulation study of alloy 625 and its high temperature fatigue behaviour in indian context,"SERB, New Delhi",Dr. SuhritMula SER-1515-MMD
+380,Design of stainless steel chemistry for realization of colossal nitrogen super saturation upon low temperature nitriding,"SERB, New Delhi",Prof. Sai RamuduMeka SER-1616-MMD
+381,3D Bio-stereolithography for engineering functional tissues,"SERB, New Delhi",Prof. DebrupaLahiri SER-1538-MMD
+382,Development of cast components in high entropy alloys,"ISRO, Bengaluru",Prof. SuhritMula STC-1564-MMD
+383,Novel Processing to enhance duality of cast AZ91 Mg alloy,"ISRO, Bengaluru",Prof. Vivek Pancholi STC-1566-MMD
+384,Development of oxide dispersion strengthened (ODS) Nickel based super alloys by powder forging,"ISRO, Bengaluru",Prof. Vikram Dabhade STC-1567-MMD
+385,Effect of titanium and zirconium addition on the nano-cluster formation and creep properties of ferritic oxide dispersion strengthened (ODS) steel processed by powder forging,"SERB, New Delhi",Prof. Vikram Dabhade SER-1618-MMD
+386,"Thermo - mechanical characteristics of interstital - substitutional high entropy CoCrFeMnNi (C,N) alloy","SERB, New Delhi",Prof. Vivek Pancholi SER-1620-MMD
+387,Recovery of lithium and cobalt values from discarded lithium-ion batteries,"SERB, New Delhi",Prof. Nikhil Dhawan SER-1638-MMD
+388,Developing pathways for simultaneous improvement in formability and paint bake response of automative grade Al-Mg-Si alloys,"SERB ,New Delhi",Prof. Sumeet Mishra SER-1757-MMD
+389,TARE- SCHEME,"SERB, New Delhi",Dr. Manish Gaupta SER-1793-MMD
+390,Multi-Scale Modeling of Hydrogen Embrittlement,"SERB, New Delhi",Prof. ArkaLahiri SER-1837-MMD
+391,Tough & Conductive spark plasma sintered SiC composites for wear resistant and electrical discharge machining applications,"SERB, New Delhi",Prof. B. Venkata Manoj Kumar SER-1838-MMD
+392,Role of Cu on the mechanical response of quenched and tempered (Q&T) steel,"SERB ,New Delhi",Prof. Anish Karmakar SER-1849-MMD
+393,Creep studies on superalloy 718 prepared by additive manufacturing,"SERB, New Delhi",Prof. Ujjawal Prakash SER-1862-MMD
+394,To study the high temperature Creep Rupture Behaviour of SU 718 alloy,"DRDO, Bangalore",Prof. Ujjwal Prakash GTR-1915-MMD
+395,Development of solid electrolytes for high voltage and high energy density Li and Na-ion batteries,"ISRO, Bengaluru",Prof. Anjan sil STC-1940-MMD
+396,Development of long continuous CNT- Polymer composite fibers for high strength applications,"BSS Advance Technologies Pvt. Ltd, Gurgaon, Haryana",Prof. Debrupa Lahiri BSS-1949-MMD
+397,Underlying Mechanisms of solidification microstructure formation during metal additive manufacturing,"SERB, New Delhi",Prof. Supriyo Ghosh SER-1972-MMD
+398,Development of polymer based water tight plug with high ability to recover shape,"NARENDRA EXPLOSIVES LIMITED, DEHRADUN",Prof. Debrupa Lahiri NEL-2016-MMD
+399,Design fabrication and characterization,"SERB, New Delhi",Prof.Abhishek Tiwari SER-2038-MMD
+400,Setting up Centre for Railway Research (CRR),"RDSO, Lucknow",Dr. S. C. Sharma RDS-1073-MID
+401,DIC Ph.D Fellowship,"MHRD, New Delhi",Dr. ApurbbaKm. Sharma DIC-1267-MID
+402,Development of ultrasonic assisted Tandem Electrochemical and Electrodischarge Micromachining process,"SERB, New Delhi",Dr. AkshayDvivedi SER-1373-MID
+403,Investigation of unsteady flow phenomina on a flapping wing and its control using synthetic jet,"DRDO, New Delhi",Prof. Sushanta Dutta DRD-1435-MID
+404,Investigation of creep and high temperature fatigue behaviour of additively manufactured Ti-6AI-4v alloys,"DRDO, New Delhi",Prof. Vidit Gaur DRD-1530-MID
+405,Deployment Mechanisms for 12m Diameter space craft antennas,"ISRO, Bengaluru",Prof. S.H. Upadhyay STC-1561-MID
+406,Development of ultra high speed optical diagnostic methodology based upon modern high speed framing camera system,"TBRL -DRDO, Chandigarh",Prof. Andallib Tariq DRD-1581-MID
+407,Application of multi-objective generative algorithms in design of complex systems,"PMG. Engg. Private Ltd., Noida",Prof. Vidit Gaur PMG-1603-MID
+408,Higher order and adaptive time integrators for fully coupled chemo-mechano- reaction problem,"SERB, New Delhi",Prof. Siladitya Pal SER-1611-MID
+409,Multiphase Analysis of Inclusion Transport and removal in continuous casting products with use of electromagnetic stirrer,"SERB, New Delhi",Prof. Pradeep Kumar Jha SER-1639-MID
+410,Fatigue Behaviour of Al-alloy for marine applications,"DRDO, New Delhi",Prof. Bhanu Kumar Mishra DRD-1692-MID
+411,Experimental and theoretical studies of high ballistics impact on multi layered nanocomposites,"DRDO, New Delhi",Prof. Kaushik Pal DRD-1728-MID
+412,Impact Biomechanics of human head,"DRDO-TBRL, Chandigarh",Prof. Shailesh 7Ganpule DRD8-1737-MID
+413,Acquisition of Research services for aerodynamic design of ballistic helmet for blast attenuation,"Ordnance Clothing Factory, Avadi, Chennai",Prof9. Shailesh Ganpule OCF-1738-MID
+414,Experimental and numerical on development of erosion friendly guide vane for hydro-turbines,"SERB, New Delhi",Prof. Bhupendra Kumar Gandhi SER-1767-MID
+415,Static and dynamics behaviour of organic and inorganic nanofiller reinforced hydrogels for biomedical applications,"SERB, New Delhi",Prof. Avinash Parashar SER-1774-MID
+416,"Design, Fabrication and characterization of enhanced micro heat pipe for electronic cooling","SERB, New Delhi",Prof. Arup Kumar Das SER-1776-MID
+417,Large -eddy simulation of flow instabilities in hydraulic turbines at off-design operation,"CPRI, Banglore",Prof. Krishna Mohan Singh CPR-1799-MID
+418,N-PDF,"SERB, New Delhi",Dr. Sonika Sahu SER-1803-MID
+419,Model experiments to measure the spread of forest fires in a realistic configuration,"SERB, New Delhi",Prof. Kirti Bhushan Mishra SER-1811-MID
+420,A Coupled field finite element framework for the dynamic analysis of Inhomogeneously Deforming electroactive polymers,"SERB, New Delhi",Prof. Manish Madhav Joglekar SER-1828-MID
+421,Atomistic simulation to study high strain rate behaviour of high entropy alloys,"SERB, New Delhi",Prof. Avinash Parashar SER-1830-MID
+422,Ramanujan Fellowship,"SERB, New Delhi",Dr. Neetu Tiwari SER-1839-MID
+423,Design of Comfort Space for mushroom farming at Biharigarh,Pervyukt Agrinnovaters (P) Ltd.,Prof. Sudhakar Subudhi PAL-1904-MID
+424,Fatigue design of welded joints in military bridges : experiments and simulations,"DRDO, New Delhi",Prof. Indra Vir Singh DRD-1908-MID
+425,Sound attenuation through use of Acoustic meta materials for trane technologies products - Part 2,Climate ETC Technologieservice Pvt. Ltd. Bangalore,Prof. Sneha Singh CET-1912-MID
+426,Design and Analysis of Inflatable Military Decoys & testing of experimental model,"DRDO, Pune",Prof. S. H. Upadhyay DRD-1919-MID
+427,Design and development of In-pipe robot,"Guwahati Technology Innovation and Development Foundation, TIH, IIT Guwahati",Prof. P.M. Pathak IGL-1927-MID
+428,Experimental and numerical analysis of light weight nanocomposites for static and dynamic loading,"ISRO, Bengaluru",Prof. Avinash Parashar STC-1939-MID
+429,Development of Super thermal insulting material (AEROGEL) based flexible blanket system for the interplanetary missions with gaseous convective environments,"ISRO, Bengaluru",Prof. Kaushik Pal STC-1942-MID
+430,"Design and development of an intelligent unmanned aerial vehicle applied to open cast minefield surveillance for real-time monitoring, hazards and vulnerability assessment",I-Hub Foundation for COBOTICS (Technology Innovation Hub of IIT Delhi Govt. of India),Prof. Pushparaj Mani Pathak IHF-1947-MID
+431,Development of a moment of fluid framework integrating machine learning based curvature estimation for non-newtonian two-phase flows in complex geometrics,"SERB, New Delhi",Prof. Nikhil Kumar Singh SER-1961-MID
+432,Formability analysis during hole-flanging process for developing auto-body components along with robust numerical modelling guideline for industrial implementation,"SERB, New Delhi",Prof. Shamik Basak SER-1965-MID
+433,Networked adaptive traffic signal in IoT enabled smart cities,Technology Innovation Hub at the indian statistical institute kolkata,Prof. Dhish kumar Saxena ISI-1970-MID
+434,Development of hybrid finishing process by in situ laser polishing and machining to improve machinability of laser additive manufactured components,"SERB, New Delhi",Prof. Amit Choudhary SER-1973-MID
+435,Design and fabrication of a bio-inspired surface with modified fluid structure interaction for enhanced under water performance,"DRDO, New Delhi",Prof. Sushanta Dutta DRD-1990-MID
+436,Characterizing flame- acoustic-turbulence interaction in premixed combusion of sustainable/low carbon fules and their blends,"SERB, New DELHI",Prof. Ajit kumar Dubey SER-1992-MID
+437,Development of biofidelic surrogate dummy models and to study their response against explosive blast loads using experiments and numerical simulations,"DRDO, Hyderabad",Prof. Shailesh Ganpule DRD-2011-MID
+438,"Development of digital twin for centrifugal pump and system, pipelines providing sea water supply to main propulsion plant on board naval platforms","DRDO, Visakhapatnam  ,Ministry of Defence",Prof. Anil Kumar DRD-2050-MID
+439,Designing secure and robust artificial intelligence (AI) algorithms and accelerators,"SERB, New Delhi",Prof. Sparsh Mittal SER-2022-MFS
+440,DIC Ph.D Fellowship,MHRD,Prof. Rajat Agarwal DIC-1266-MSD
+441,Framework for municipal waste mangement solutions in smart cities of India,"ICSSR, New Delhi",Prof. Ramesh A. ICS-1883-MSD
+442,Exploring low-Carbon transportation pathways for India,"New Venture Fund, Liuben Chipev, Washington, USA",Prof. Tarun Sharma NVF-1911-MSD
+443,Investigating the Adoption of Electric Vehicles in India : A Case of Tier 2 cities in India,"ICSSR, New Delhi",Prof. Sourabh Arora ICS-1918-MSD
+444,Start-up India and Skill India Initatives Identification of Innovative Financial Source to Strengthen the Initiatives and formation of Financial Strategies,"ICSSR, New Delhi",Prof. Anil kumar Sharma ICS-1925-MSD
+445,International decarbonization modelling project with open-source models and data (Open decarbonization initiative),"Environmental defence fund, United States, New York",Prof. Tarun Sharma EDF-1958-MSD
+446,Bilayer functionalized scaffold for peripheral nerve and guided motor neural regeneration,"SERB, New Delhi",Dr. DebrupaLahiri SER-1506-NTC
+447,Stimuli responsive photothermal nanoparticles in cancer therapy,"DST, New Delhi",Prof. Kaushik Pal DST-1583-NTC
+448,"""Thermoelectric transport in presence of time-dependent perturbations "" under women scientist scheme 'A' (Wos-A)","DST, New Delhi",Prof. Debashree Chowdhury DST-1586-NTC
+449,Nanostructured Materials fo Next-generation Energy conversion and storage Devices,"DST, New Delhi",Prof. Yogesh Kumar Sharma DST-1769-NTC
+450,Multiscale Modelling and simulation of layered fibrereinforeced nanocomposite,DRDO-CARS,Prof. Kaushik Pal DRD-1825- NTC
+451,N-PDF,"SERB ,New Delhi",Dr.Unnikrishnan B. S. SER-1844-NTC
+452,Nanoscale Investigations into the interactions of metal/metal oxides/ceramics/cermets with GAGs for functional applications,ESYANTRA PVT. LTD,Prof. Krishna Mohan Poluri EPL-1886-NTC
+453,Development of Nano-micro matrices for the delivery of bioactives micronutrients and therapeutics,"ICAR - NASF , New Delhi",Prof. Naveen Kumar Navani NAS-1928-NTC
+454,Development Scaffolds for restoring trauma in spinal cord injury (SCI),"ICMR, New Delhi",Prof. Debrupa Lahiri ICM-1950-NTC
+455,Development efficient colloidal quantum dot-based solid state light emitters in the short-wave infrared region of 1500-1700 nm,"SERB, New Delhi",Prof. Santanu Pradhan SER-1952-NTC
+456,Study of light heavy-ion fusion reaction mechanism in producing platinum group metal radionuclides-A prospect towards application,"CSIR, New Delhi",Dr. MoumitaMaithi CSR-1476-PHY
+457,Quantum information technologies with ion-trap and optical-lattice devices,"DST, New Delhi",Prof. Ajay wasan DST-1519-PHY
+458,Photonic metasurfaces for enhanced IR absorption and its applications for sensing and heat absorbing windows,"STAR, MHRD, New Delhi",Prof. Sachinkumar Srivastava STR-1526-PHY
+459,"Design and development of high performance supercapatteri for solar applications ( Solar Lantern,Solar home light)","MNRE, New Delhi",Prof. Yogesh Kumar Sharma MNE-1527-PHY
+460,Energy -efficient reconfigurable silicon photonic integrated devices and circuits for optical interconnects,"DST, New Delhi",Prof. Rajesh kumar DST-1576-PHY
+461,Study of laboratory plasma through the detailed collisional radiative model and reliable cross-section data calculated for different atomic processes,"SERB, New Delhi",Prof. Rajesh Srivastava SER-1615-PHY
+462,Nuclear structure and evaluation of collectivity beyond 208 pb,"SERB, New Delhi",Prof. Ajay Y. Deo SER-1619-PHY
+463,Indo-South Korea Joint Network center for environmental cyber physical system,"DST, New Delhi",Prof. Sachin Kumar Srivastava DST-1637-PHY
+464,Josephson transport across coupled quantum dots,"SERB, New Delhi",Prof. AJAY SER-1644-PHY
+465,Development of ultrasensitive MEMS Magnetic sensors for flexible electronics,"SERB, New Delhi",Prof. Davinder Kaur Walia SER-1649-PHY
+466,Mesoscale modeling of amorphous solids for large scale simultions,"National Supercomputing Mission (NSM), New Delhi",Prof. ShiladityaSengupta NSM-1662-PHY
+467,Fist Programme,"DST, New Delhi",Prof. Arup Samanta DST-1684-PHY
+468,Investigation of topology in magnetic and correlated systems,"SERB, New Delhi",Prof. Tulika Maitra SER-1731-PHY
+469,Respiratory virus detection using advanced machine-learning enabled plasmon enhanced raman-spectroscopic nano-sensors (REVAMPERS),"DST, New Delhi",Prof. Sachin Kumar Srivastava DST-1734-PHY
+470,INSPIRE Faculty Fellowship,"DST, New Delhi",Prof. Anjani Kumar Tiwari DST-1812-PHY
+471,Neutron stars slands colliders holography entanglement color superconductivity and ACMS in from String/M-Theoretic Holography at Intermediate Coupling,"SERB, New Delhi",Prof. AalokMisra SER-1829-PHY
+472,Semi-Transport Third generation photovoltaics device for building integration,Tripartite Memorandum of Understanding (MOU) for Funding Virtual Energy Conclave for conducting Industry Oriented Research in the field of energy,Prof. SoumitraSatapathi VEC-1831-PHY
+473,DST-Storage MAP,"DST, New Delhi",Prof. Yogesh Kumar Sharma DST-1834-PHY
+474,Self Powered Wavelength Selective NiO based Plasmonic UV-visible Photodetector,"SERB, New Delhi",Prof. Anirban Mitra SER-1841-PHY
+475,Hybrid - Halide Perovskites for efficient suprercapacitor application,"SERB ,New Delhi",Prof. Monojit Bag SER-1848-PHY
+476,Investiagtion and characterization of ionospheric two dimensional plasma structures over the geomagnetic low-mid latitude transition region usin artificial intelligence and machine learning,"SERB, New Delhi",Prof. SumantaSarkhel SER-1850-PHY
+477,Development of Transparent Perovskite Devices for building Integrated Photovoltaics (TRADE),"SERB, New Delhi",Prof. SoumitraSatapathi SER-1852-PHY
+478,Centre for rechargeable energy storage systems for augmenting transportation and electrification (CREATE),"SERB, New Delhi",Prof. Yogesh kumar Sharma SER-1856-PHY
+479,Study of low dimensional magnetic and multiferroic materials from first principles calculations,"SERB, New Delhi",Prof. Tulika Maitra SER-1860-PHY
+480,The Electric field control of Magnetization properties in Quantum Matter Heterostructures,"SERB, New Delhi",Prof. Vivek Kumar Malik SER-1869-PHY
+481,IR Radiation Propagation study througjh Mono-centric lons (MCL) assembly,"DRDO, Dehradun",Prof. Akhilesh Kumar Mishra DRD-1874-PHY
+482,"Growth and Study of Structural, Superconducting and magnetic properties of Iron-based topological superconductors","UGC-DAE CSR, Mumbai",Prof. G.D. Varma UGC-1879-PHY
+483,Development of Conversational Sanskrit translator using Neural Machine Translation,"ALL INDIA Council for technical education, New Delhi",Prof. Anil Kumar Gourishetty IKS-1891-PHY
+484,Soft hydrogel lens as non-inasive ocular implant for image assisted in vivo drug delivery in diabetic retinopathy,Chellaram Diabetes Research Centre,Prof. Mayank Goswami CDR-1899-PHY
+485,Mass Production of High Performance carbon fibers and nanofibric separators by Electro-spining techniques for rechargeable batteries and super-capacitors,"National Technical Textiles Mission, Ministry of Textiles, Udyog Bhawan, New Delhi",Prof. Yogesh Sharma NTM-1910-PHY
+486,Computer tomographhy (CT) based algorithm for non-destructive quality assessment of ceramic joints of the components used in space applications,"ISRO, Bengaluru",Prof. Mayank Goswami STC-1937-PHY
+487,Large scale relativistic calculations for atomic structure and electron impact excitation of impurity ions,"International Atomic energy agency, (IAEA), Viennna, Austria",Prof. Lalita Sharma IAE-1964-PHY
+488,SERB N-PDF,"SERB, New DELHI",Prof. Rajdeep Chatterjee (Mentor) SER-1986-PHY
+489,Development of photonic enhanced multiparameter detection platform for TBI screening,"DRDO, New Delhi",Prof. Sachin kumar Srivastava DRD-1993-PHY
+490,IKS Internship Program 2022,"IKS AICTE, New Delhi",Prof. Anil Kumar Gourishetty IKS-2004-PHY
+491,Liquid crustal elastomer-based opto-mechanical control of photonic resonators,"SERB, New Delhi",Prof. Anjani kumar Tiwari SER-2005-PHY
+492,development of lead-freee perovskite solar cells for indoor lighting - a green solution for a grey problem free- solar,"DST, New Delhi",Prof. Soumitra Satapathi DST-2021-PHY
+493,Study of optical pulses and Beams with Optical Angular Momemtun,"SERB, New Delhi",Prof. Ahilesh Kumar Mishra SER-2046-PHY
+494,Value addition of wood and wood based composites using nanomaterials,"ICFRE, Dehradun",Prof. Y.S. Negi ICF-1585-PPE
+495,Development of silver Nanowire/Polymer composite as transparent electrode for flexible thin film solar cell - TARE,"SERB, New Delhi",Dr. Manjeet Singh SER-1610-PPE
+496,Light weight thermal super-insulting aerogel made by using hybrid cellulose nanomaterials extracted from waste biomaterials for building and advanced applications,"SERB, New Delhi",Prof. Pradip Kumar Maji SER-1836-PPE
+497,INSPIRE Faculty Fellowship,"DST, New Delhi (Transfer from Institute of Nanoscience & Technology, Mohali to I.I.T. Roorkee, Roorkee",Dr. Kaushik Parida (Inspire faculty) DST-1935-PPE
+498,Development of Complex biomimetic artifical nerve-graft for repairing spinal cord injury,Indian council of Medical Research,Prof. Narayan Chandra Mishra ICM-1979-PPE
+499,3D printed hybrid electrode based wearable pressure sensor for early detection of diabetic foot ulcer,"SERB, New DELHI",Prof. Kaushik Parida SER-1996-PPE
+500,Luminescent organic single crystals for flexible display devices,"SERB, New Delhi",Prof. Kaushik Parida SER-2028-PPE
+501,Development of improved adhesive product for the tile applications,"Kasper India PVT. LTD, Rohtak",Prof. Gaurav Manik KIP-2034-PPE
+502,Chemical recycling of unsaturated polyster resin and its composites,John Deere India Pvt. Ltd.,Prof. Pradip Kumar Maji JDI-2039-PPE
+503,Experimental Agromet Advisory Service Unit,"National Centre for Medium Range Weather Forecasting, Noida",Dr. Ashish Pandey NWF-206-WRC
+504,Water for change integrotive and fit for purpose water sensitive design framework for fast growing livable cities,"DST, New Delhi",Dr. M.L Kansal DST-1429-WRC
+505,IRRIGATION Efficiency improvement through ON-Form water Management,"MOWR, New Delhi",Dr. Ashish Pandey MOW-1440-WRC
+506,Impacts of recent EI - Nino Southern oscillation (ENSO) on the water - food- energy nexus in south asia.,"SRCS, Sweden",Prof. Kasiviswanathan K.S. SWR-1524-WRC
+507,Green technology for detection of leakage & heavy metals and prevention of choking in pipe networks and its demonstrations in himalayan setups,"NMHS, Almora",Prof. S.K. Mishra NMH-1540-WRC
+508,Historical trend analysis of ramsar wetlands in indi : A remote sensing and modeling approach,"ISRO, Ahmedabad",Prof. Ashish Pandey ISR-1588-WRC
+509,Identification of critical soil erosion prone areas and preparation of CAT Plan,"National Mission for Clean Ganga, Ministry of Jal Shakti, New Delhi",Prof. Ashish Pandey NMC-1779-WRC
+510,Design of climate resilient managed aquifer recharge strategy for safe water supplies and improved groundwater protection in hindon river basin,"SERB, New Delhi",Prof. Basant Yadav SER-1783-WRC
+511,Development of decision support system for integrated operation of tehri hydro power complex,"THDC India Ltd., Rishikesh",Prof. Kasiviswanathan K.S. THD-1890-WRC
+512,Water Security assessment at the river basin level using the water footprint concepts,"ISRO, Bengaluru",Prof. Basant Yadav STC-1943-WRC
+513,An integrated approach to quantify the impacts of climate change and socioeconomic dynamics on human health risk associated with contaminated urban floodwaters,"SERB, New DELHI",Prof. Mohit Prakash Mohanty SER-1974-WRC
+514,community based managed aquifier recharge (COMAR) in rural clusters : a tool for sustainable and safe drinking water supply,"Ministry of Jal shakti, Department of Driniking water and sanitation",Prof. Basant Yadav MJS-2020-WRC
+515,support to develop the water at WRD&M (For soil and quality lab),Indraprastha Limited - CSR Support,Prof. Ashish Pandey IGL-1929-WRC
