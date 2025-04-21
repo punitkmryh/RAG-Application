@@ -16,8 +16,8 @@ from langchain.schema import Document
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
-st.set_page_config(page_title="🧠 Table Q&A with LLM", layout="wide")
-st.title("📊 Table Scraper + LLM QA")
+st.set_page_config(page_title="🧠 TableSense AI", layout="wide")
+st.title("📊 Table Scraper and Chatbot for Table insight using LLM QA")
 
 # Setup Groq LLM
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
