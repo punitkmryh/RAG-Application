@@ -59,7 +59,6 @@ def fetch_tables_with_titles(url):
         return []
 
 # ---------------- VECTOR INGESTION ----------------
-# ---------------- VECTOR INGESTION ----------------
 def ingest_table(df):
     # Convert all columns to strings to avoid validation errors
     df = df.applymap(str)  # Apply str conversion to all elements in the dataframe
@@ -76,8 +75,8 @@ def ingest_table(df):
 
 
 # ---------------- STREAMLIT UI ----------------
-st.set_page_config(page_title="Table Scraper + Q&A + Groq Chatbot", layout="wide")
-st.title("📊 Table Scraper + 🧠 LLM Q&A + 🤖 Groq Chatbot")
+st.set_page_config(page_title="TableSense AI Chatbot", layout="wide")
+st.title("📊 Table Scraper + 🤖 Groq Chatbot")
 
 # URL Input
 url = st.text_input("Enter a webpage URL containing HTML tables")
